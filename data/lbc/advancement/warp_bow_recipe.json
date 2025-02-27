@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "uslovie": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "custom_data": {
+                                "warp_bow": true
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "uslovie"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "lbc:warp_bow"
+        ],
+        "experience": 5
+    }
+}

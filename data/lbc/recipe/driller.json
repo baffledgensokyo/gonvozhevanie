@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "121",
+        "232",
+        "121"
+    ],
+    "key": {
+        "1": "minecraft:redstone_block",
+        "2": "minecraft:iron_block",
+        "3": "minecraft:anvil"
+    },
+    "result": {
+        "id": "minecraft:repeating_command_block",
+        "components": {
+            "minecraft:item_name": "\"Дробящий шар\"",
+            "minecraft:lore": [
+                "{\"text\":\"Будучи выброшенным на пол, через несколько\",\"italic\":false,\"color\":\"#9effe7\"}",
+              "{\"text\":\"секунд разрушает блоки вокруг себя\",\"italic\":false,\"color\":\"#9effe7\"}"
+            ],
+            "minecraft:item_model": "minecraft:wind_charge",
+            "minecraft:enchantment_glint_override": true,
+            "custom_data": {
+                "driller": true,
+                "throwed_item": true
+            }
+        },
+        "count": 1
+    }
+}

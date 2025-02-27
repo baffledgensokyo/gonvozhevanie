@@ -1,0 +1,1 @@
+execute rotated as @e[limit=1,sort=random] rotated ~ 0 positioned ^ ^ ^30 run summon marker ~ ~ ~ {Tags:["tick_raycast","voidfire"]}

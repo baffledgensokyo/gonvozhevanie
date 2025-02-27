@@ -1,0 +1,53 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "11",
+        " 2",
+        " 2"
+    ],
+    "key": {
+        "1": "minecraft:netherite_ingot",
+        "2": "minecraft:blaze_rod"
+    },
+    "result": {
+        "id": "minecraft:netherite_hoe",
+        "components": {
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:attack_damage",
+                        "id": "picyehdffjfyjtt6t",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    }
+                ],
+                "show_in_tooltip": true
+            },
+            "minecraft:item_name": "\"Адская мотыга\"",
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:tool": {
+                "rules": [
+                    {
+                        "blocks": "#mineable/hoe",
+                        "speed": 19,
+                        "correct_for_drops": true
+                    }
+                ],
+                "default_mining_speed": 1,
+                "damage_per_block": 1
+            },
+            "max_damage": 6448,
+            "damage": 0,
+            "max_stack_size": 1,
+            "enchantable": {
+                "value": 160
+            },
+            "custom_data": {
+                "autosmelt": true
+            }
+        },
+        "count": 1
+    }
+}

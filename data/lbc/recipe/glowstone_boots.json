@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "111",
+        "121",
+        "111"
+    ],
+    "key": {
+        "1": "minecraft:glowstone_dust",
+        "2": "minecraft:leather_boots"
+    },
+    "result": {
+        "id": "minecraft:leather_boots",
+        "components": {
+            "minecraft:item_name": "\"Окрашенные светопылью сапоги\"",
+            "minecraft:lore": [
+                "{\"text\":\"Пыль сыпется с них, создавая\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"незримые источники света.\",\"italic\":false,\"color\":\"#9effe7\"}"
+            ],
+            "minecraft:enchantment_glint_override": true,
+            "custom_data": {
+                "glowstone_boots": true
+            },
+            "max_damage": 150,
+            "damage": 0,
+            "max_stack_size": 1,
+            "dyed_color": {
+                "rgb": 16770833,
+                "show_in_tooltip": false
+            }
+        },
+        "count": 1
+    }
+}

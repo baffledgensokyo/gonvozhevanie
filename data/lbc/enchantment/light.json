@@ -1,0 +1,28 @@
+{
+    "anvil_cost": 1,
+    "description": "Свечение",
+    "effects": {
+      "minecraft:tick": [
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "lbc:items/glowstone_boots/tick_enchantment"
+          }
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 65,
+      "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+      "base": 30,
+      "per_level_above_first": 0
+    },
+    "slots": [
+      "armor"
+    ],
+    "supported_items": "#minecraft:enchantable/armor",
+    "weight": 1
+  }

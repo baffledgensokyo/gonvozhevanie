@@ -1,0 +1,17 @@
+{
+    "values": [
+    "#lbc:coal_ores",
+    "#lbc:copper_ores",
+    "#lbc:diamond_ores",
+    "#lbc:emerald_ores",
+    "#lbc:gold_ores",
+    "#lbc:iron_ores",
+    "#lbc:lapis_ores",
+    "#lbc:redstone_ores",
+    "#lbc:spawners",
+    "chest",
+    "nether_quartz_ore",
+    "ancient_debris",
+    "vault"
+    ]
+}

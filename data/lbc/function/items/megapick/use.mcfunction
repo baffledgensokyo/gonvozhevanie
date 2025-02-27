@@ -1,0 +1,1 @@
+execute anchored eyes positioned ^ ^ ^ positioned ~ ~-0.3 ~ run function lbc:items/megapick/use_at

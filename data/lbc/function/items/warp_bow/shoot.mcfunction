@@ -1,0 +1,2 @@
+scoreboard players operation @e[type=#arrows,limit=1,distance=..4,sort=nearest,tag=!warp_arrow] id = @s id
+execute as @e[type=#arrows,limit=1,distance=..4,sort=nearest,tag=!warp_arrow] at @s run function lbc:items/warp_bow/arrow_at

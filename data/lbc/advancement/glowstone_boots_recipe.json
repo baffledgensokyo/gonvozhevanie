@@ -1,0 +1,25 @@
+{
+    "criteria": {
+      "uslovie": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                    "items": "glowstone_dust"
+                }
+            ]
+        }
+    }
+    },
+    "requirements": [
+      [
+        "uslovie"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "lbc:glowstone_boots"
+      ],
+      "experience": 5
+    }
+  }

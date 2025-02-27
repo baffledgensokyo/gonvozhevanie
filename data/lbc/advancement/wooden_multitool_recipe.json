@@ -1,0 +1,25 @@
+{
+    "criteria": {
+      "uslovie": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                    "items": "#planks"
+                }
+            ]
+        }
+    }
+    },
+    "requirements": [
+      [
+        "uslovie"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "lbc:multitool/wooden"
+      ],
+      "experience": 5
+    }
+  }

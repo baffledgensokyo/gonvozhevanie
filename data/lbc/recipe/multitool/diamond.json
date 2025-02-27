@@ -1,0 +1,86 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        "diamond_pickaxe",
+        "diamond_axe",
+        "diamond_hoe",
+        "diamond_sword",
+        "diamond_shovel"
+    ],
+    "result": {
+        "id": "minecraft:diamond_hoe",
+        "components": {
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:attack_damage",
+                        "id": "8v5byt7jcyjui7molgg8t8kkkke",
+                        "amount": 8,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "minecraft:attack_speed",
+                        "id": "zsre5h8mtdect54ecfthjhjungo8nuk7jt",
+                        "amount": -2.5,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    }
+                ],
+                "show_in_tooltip": true
+            },
+            "minecraft:item_name": "\"Алмазный мульти-инструмент\"",
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:tool": {
+                "rules": [
+                    {
+                        "blocks": "#incorrect_for_diamond_tool",
+                        "speed": 8,
+                        "correct_for_drops": false
+                    },
+                    {
+                        "blocks": "#bamboo",
+                        "speed": 148852,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#minecraft:sword_efficient",
+                        "speed": 8,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#mineable/pickaxe",
+                        "speed": 8,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#mineable/shovel",
+                        "speed": 8,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#mineable/hoe",
+                        "speed": 8,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#mineable/axe",
+                        "speed": 8,
+                        "correct_for_drops": true
+                    }
+                ],
+                "default_mining_speed": 8,
+                "damage_per_block": 1
+            },
+            "max_damage": 7805,
+            "damage": 0,
+            "max_stack_size": 1,
+            "enchantable": {
+                "value": 10
+            },
+            "item_model": "minecraft:diamond_pickaxe"
+        },
+        "count": 1
+    }
+}

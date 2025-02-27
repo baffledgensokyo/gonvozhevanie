@@ -1,0 +1,1 @@
+execute if entity @e[type=item,distance=..1] if entity @a[distance=..8] if predicate lbc:see_sky positioned ~ 128 ~ if entity @e[type=marker,tag=void,distance=..150] at @s run function lbc:items/overchanter/possible

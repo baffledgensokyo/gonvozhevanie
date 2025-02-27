@@ -1,0 +1,19 @@
+{
+    "anvil_cost": 0,
+    "description": "Вор душ",
+    "max_cost": {
+        "base": 100,
+        "per_level_above_first": 0
+    },
+    "max_level": 20,
+    "min_cost": {
+        "base": 100,
+        "per_level_above_first": 0
+    },
+    "slots": [
+        "any"
+    ],
+    "supported_items": "#lbc:enchantable/armor_and_weapons",
+    "weight": 5,
+    "exclusive_set": "#lbc:balls_grabber"
+}

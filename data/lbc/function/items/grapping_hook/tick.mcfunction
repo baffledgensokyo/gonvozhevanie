@@ -1,0 +1,5 @@
+execute if score @s rccd matches 0 run function lbc:items/grapping_hook/rc
+scoreboard players add @s rccd 1
+execute if score @s rccd matches 5 run scoreboard players set @s rccd 0
+schedule function lbc:items/grapping_hook/tick_end 2t
+advancement revoke @s only lbc:grapping_hook_tick

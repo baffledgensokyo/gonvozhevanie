@@ -1,0 +1,2 @@
+particle item_cobweb ~ ~ ~ 0.1 0.1 0.1 0 2 normal
+execute positioned ^ ^ ^.33 unless entity @e[type=minecraft:marker,distance=..3,tag=grapping_hook_pos,tag=grapnow] run function lbc:items/grapping_hook/grapping_hook_tick_particle

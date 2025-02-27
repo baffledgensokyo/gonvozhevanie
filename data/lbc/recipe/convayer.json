@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        "121",
+        "232",
+        "121"
+    ],
+    "key": {
+        "1": "minecraft:magenta_glazed_terracotta",
+        "2": "minecraft:dried_kelp",
+        "3": "minecraft:redstone"
+    },
+    "result": {
+        "id": "minecraft:panda_spawn_egg",
+        "components": {
+            "minecraft:item_name": "\"Механический конвейер\"",
+            "minecraft:lore": [
+                "{\"text\":\"Двигает предметы над собой!\",\"italic\":false,\"color\":\"#9effe7\"}"
+            ],
+            "minecraft:item_model": "minecraft:magenta_glazed_terracotta",
+            "minecraft:enchantment_glint_override": true,
+            "entity_data": {
+                "id": "marker",
+                "Tags": [
+                    "5_tick_raycast",
+                    "conveyer",
+                    "conveyer_1"
+                ]
+            }
+        },
+        "count": 4
+    }
+}

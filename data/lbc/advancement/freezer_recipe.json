@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "uslovie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wind_charge",
+              "snowball"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "uslovie"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "lbc:freezer"
+    ],
+    "experience": 5
+  }
+}

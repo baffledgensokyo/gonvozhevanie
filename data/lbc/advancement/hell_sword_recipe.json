@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "uslovie": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "netherite_ingot"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "uslovie"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "lbc:true_netherite_sword"
+        ],
+        "experience": 5
+    }
+}

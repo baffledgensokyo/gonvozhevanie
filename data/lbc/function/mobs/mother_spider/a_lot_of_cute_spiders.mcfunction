@@ -1,0 +1,12 @@
+summon cave_spider ~1 ~ ~ {Tags:["tagged","mother_spider_kid","1"],Health:1,attributes:[{id:"scale",base:0.5}],PersistenceRequired:false}
+summon cave_spider ~1 ~ ~ {Tags:["tagged","mother_spider_kid","1"],Health:1,attributes:[{id:"scale",base:0.5}],PersistenceRequired:false}
+summon cave_spider ~ ~ ~1 {Tags:["tagged","mother_spider_kid","1"],Health:1,attributes:[{id:"scale",base:0.5}],PersistenceRequired:false}
+summon cave_spider ~ ~ ~1 {Tags:["tagged","mother_spider_kid","1"],Health:1,attributes:[{id:"scale",base:0.5}],PersistenceRequired:false}
+summon cave_spider ~-1 ~ ~ {Tags:["tagged","mother_spider_kid","1"],Health:1,attributes:[{id:"scale",base:0.5}],PersistenceRequired:false}
+summon cave_spider ~-1 ~ ~ {Tags:["tagged","mother_spider_kid","1"],Health:1,attributes:[{id:"scale",base:0.5}],PersistenceRequired:false}
+summon cave_spider ~ ~ ~-1 {Tags:["tagged","mother_spider_kid","1"],Health:1,attributes:[{id:"scale",base:0.5}],PersistenceRequired:false}
+summon cave_spider ~ ~ ~-1 {Tags:["tagged","mother_spider_kid","1"],Health:1,attributes:[{id:"scale",base:0.5}],PersistenceRequired:false}
+summon cave_spider ~1 ~ ~1 {Tags:["tagged","mother_spider_kid","1"],Health:1,attributes:[{id:"scale",base:0.5}],PersistenceRequired:false}
+summon cave_spider ~1 ~ ~-1 {Tags:["tagged","mother_spider_kid","1"],Health:1,attributes:[{id:"scale",base:0.5}],PersistenceRequired:false}
+summon cave_spider ~-1 ~ ~1 {Tags:["tagged","mother_spider_kid","1"],Health:1,attributes:[{id:"scale",base:0.5}],PersistenceRequired:false}
+summon cave_spider ~-1 ~ ~-1 {Tags:["tagged","mother_spider_kid","1"],Health:1,attributes:[{id:"scale",base:0.5}],PersistenceRequired:false}

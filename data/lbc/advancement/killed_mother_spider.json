@@ -1,0 +1,24 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": [
+              "minecraft:spider",
+              "minecraft:cave_spider"
+            ],
+            "nbt": "{Tags:[\"mother_spider\"]}"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "requirement"
+      ]
+    ],
+    "rewards": {
+      "function": "lbc:mobs/mother_spider/killed"
+    }
+  }

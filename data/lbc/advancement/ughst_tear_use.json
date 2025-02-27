@@ -1,0 +1,28 @@
+{
+    "criteria": {
+      "uslovie": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "ughst_tear": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "uslovie"
+      ]
+    ],
+    "rewards": {
+      "function": "lbc:items/thrown_items/ughst_tear/use"
+    }
+  }

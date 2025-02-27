@@ -1,0 +1,25 @@
+{
+    "criteria": {
+      "uslovie": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                    "items": "diamond_pickaxe"
+                }
+            ]
+        }
+    }
+    },
+    "requirements": [
+      [
+        "uslovie"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "lbc:megapick"
+      ],
+      "experience": 5
+    }
+  }

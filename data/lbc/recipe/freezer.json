@@ -1,0 +1,77 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        "111",
+        "121",
+        "131"
+    ],
+    "key": {
+        "1": "minecraft:snow_block",
+        "2": "minecraft:wind_charge",
+        "3": "minecraft:redstone_block"
+    },
+    "result": {
+        "id": "minecraft:panda_spawn_egg",
+        "components": {
+            "minecraft:item_name": "\"Холодильник\"",
+            "minecraft:lore": [
+                "{\"text\":\"Замораживает жидкости вокруг себя\",\"italic\":false,\"color\":\"#9effe7\"}"
+            ],
+            "minecraft:item_model": "minecraft:light_blue_glazed_terracotta",
+            "minecraft:enchantment_glint_override": true,
+            "entity_data": {
+                "id": "giant",
+                "Tags": [
+                    "freezer"
+                ],
+                "DeathLootTable": "lbc:freezer",
+                "attributes": [
+                    {
+                        "id": "scale",
+                        "base": 0.0625
+                    },
+                    {
+                        "id": "max_health",
+                        "base": 1
+                    },
+                    {
+                        "id": "fall_damage_multiplier",
+                        "base": 0
+                    },
+                    {
+                        "id": "burning_time",
+                        "base": -1
+                    },
+                    {
+                        "id": "knockback_resistance",
+                        "base": 12
+                    }
+                ],
+                "ArmorDropChances": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "ArmorItems": [
+                    {
+                        "id": "snow_block"
+                    },
+                    {},
+                    {},
+                    {}
+                ],
+                "Health": 1,
+                "active_effects": [
+                    {
+                        "id": "invisibility",
+                        "duration": -1,
+                        "show_particles": false
+                    }
+                ]
+            }
+        },
+        "count": 1
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:panda_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "\"Трансбур\"",
+                                "minecraft:lore": [
+                                    "{\"text\":\"Добывает минералы из глубин мира\",\"italic\":false,\"color\":\"#9effe7\"}"
+                                ],
+                                "minecraft:item_model": "minecraft:observer",
+                                "minecraft:enchantment_glint_override": true,
+                                "entity_data": {
+                                    "id": "marker",
+                                    "Tags": [
+                                        "5_tick_raycast",
+                                        "autoquarry"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

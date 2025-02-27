@@ -1,0 +1,147 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "bonus_rolls": 0,
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 2,
+                                "min": 1
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 2,
+                                "min": 1
+                            },
+                            "enchantment": "minecraft:looting",
+                            "function": "minecraft:enchanted_count_increase"
+                        }
+                    ],
+                    "name": "minecraft:breeze_rod"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:attack_damage",
+                                            "id": "pickdgregamage",
+                                            "amount": 2,
+                                            "operation": "add_value",
+                                            "slot": "mainhand"
+                                        },
+                                        {
+                                            "type": "minecraft:attack_speed",
+                                            "id": "foasifsdrhhgffsgd",
+                                            "amount": -2,
+                                            "operation": "add_value",
+                                            "slot": "mainhand"
+                                        }
+                                    ],
+                                    "show_in_tooltip": true
+                                },
+                                "minecraft:custom_data": {
+                                    "wind_staff": true
+                                },
+                                "minecraft:item_name": "\"Воздушный жезл\"",
+                                "minecraft:enchantment_glint_override": true,
+                                "use_cooldown": {
+                                    "seconds": 3
+                                },
+                                "consumable": {
+                                    "consume_seconds": 100000000000,
+                                    "animation": "none",
+                                    "has_consume_particles": false
+                                },
+                                "minecraft:lore": [
+                                    "{\"text\":\"ПКМ: Выстреливает воздушным снарядом\",\"italic\":false,\"color\":\"#9effe7\"}"
+                                ],
+                                "item_model": "breeze_rod",
+                                "max_damage": 64,
+                                "damage": 0,
+                                "max_stack_size": 1
+                            }
+                        }
+                    ],
+                    "name": "minecraft:breeze_rod",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.015
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        },{
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:breeze_spawn_egg",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance_with_enchanted_bonus",
+              "enchanted_chance": {
+                "type": "linear",
+                "base": 0.005,
+                "per_level_above_first": 0.005
+              },
+              "enchantment": "lbc:balls_grabber",
+              "unenchanted_chance": 0
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:breeze_spawn_egg",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.0075
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "attacker",
+              "predicate": {
+                "equipment": {
+                  "legs": {
+                    "predicates": {
+                      "minecraft:custom_data": {
+                        "hell_leggings": true
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+    ],
+    "random_sequence": "minecraft:entities/breeze"
+}

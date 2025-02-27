@@ -1,0 +1,1 @@
+execute if entity @s[tag=xray] unless entity @a[distance=..30,limit=1] run kill @s

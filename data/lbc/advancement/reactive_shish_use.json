@@ -1,0 +1,28 @@
+{
+    "criteria": {
+      "uslovie": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "reactive_shish": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "uslovie"
+      ]
+    ],
+    "rewards": {
+      "function": "lbc:items/reactive_shish/use"
+    }
+  }

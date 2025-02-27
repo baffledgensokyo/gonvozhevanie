@@ -1,0 +1,1 @@
+execute if predicate lbc:chance15 run playsound entity.ghast.ambient hostile @a ~ ~ ~ 4 0.8

@@ -1,0 +1,34 @@
+{
+    "criteria": {
+      "uslovie": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "kelp",
+                "dried_kelp",
+                "terracotta",
+                "magenta_glazed_terracotta",
+                "redstone",
+                "ender_pearl"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "uslovie"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "lbc:convayer",
+        "lbc:ender_convayer",
+        "lbc:warp_convayer"
+      ],
+      "experience": 5
+    }
+  }

@@ -1,0 +1,87 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        "wooden_pickaxe",
+        "wooden_axe",
+        "wooden_hoe",
+        "wooden_sword",
+        "wooden_shovel"
+    ],
+    "result": {
+        "id": "minecraft:wooden_hoe",
+        "components": {
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:attack_damage",
+                        "id": "4vuc6ujg5rbyv7bkjrcyrtoyubndthcrfe",
+                        "amount": 5,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "minecraft:attack_speed",
+                        "id": "zsrehv6ub6kvfytjre5yjxd4jt",
+                        "amount": -2.7,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    }
+                ],
+                "show_in_tooltip": true
+            },
+            "minecraft:item_name": "\"Деревянный мульти-инструмент\"",
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:tool": {
+                "rules": [
+                    {
+                        "blocks": "#incorrect_for_wooden_tool",
+                        "speed":2,
+                        "correct_for_drops": false
+                    },
+                    {
+                        "blocks": "#bamboo",
+                        "speed": 148852,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#minecraft:sword_efficient",
+                        "speed":2,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#mineable/pickaxe",
+                        "speed":2,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#mineable/shovel",
+                        "speed":2,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#mineable/hoe",
+                        "speed":2,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#mineable/axe",
+                        "speed":2,
+                        "correct_for_drops": true
+                    }
+                ],
+                "default_mining_speed":2,
+                "damage_per_block": 1
+            },
+            "max_damage": 290,
+            "damage": 0,
+            "max_stack_size": 1,
+            "enchantable": {
+                "value": 15
+                
+            },
+            "item_model": "minecraft:wooden_pickaxe"
+        },
+        "count": 1
+    }
+}

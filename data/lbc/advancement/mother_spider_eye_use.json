@@ -1,0 +1,28 @@
+{
+    "criteria": {
+      "uslovie": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "mother_spider_eye": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "uslovie"
+      ]
+    ],
+    "rewards": {
+      "function": "lbc:items/mother_spider_eye/use"
+    }
+  }

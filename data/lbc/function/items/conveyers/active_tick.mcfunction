@@ -1,0 +1,2 @@
+execute unless block ~ ~ ~ magenta_glazed_terracotta run function lbc:items/conveyers/break
+execute if block ~ ~ ~ magenta_glazed_terracotta positioned ~ ~.5 ~ if entity @e[type=!#raycasters,distance=..0.66] run function lbc:items/conveyers/active_tick_break

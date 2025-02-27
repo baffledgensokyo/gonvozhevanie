@@ -1,0 +1,29 @@
+execute positioned ~1 ~ ~ unless block ~ ~ ~ #unbreakable run fill ~ ~ ~ ~ ~ ~ air destroy
+execute positioned ~ ~ ~1 unless block ~ ~ ~ #unbreakable run fill ~ ~ ~ ~ ~ ~ air destroy
+execute positioned ~-1 ~ ~ unless block ~ ~ ~ #unbreakable run fill ~ ~ ~ ~ ~ ~ air destroy
+execute positioned ~ ~ ~-1 unless block ~ ~ ~ #unbreakable run fill ~ ~ ~ ~ ~ ~ air destroy
+execute positioned ~1 ~ ~1 unless block ~ ~ ~ #unbreakable run fill ~ ~ ~ ~ ~ ~ air destroy
+execute positioned ~1 ~ ~-1 unless block ~ ~ ~ #unbreakable run fill ~ ~ ~ ~ ~ ~ air destroy
+execute positioned ~-1 ~ ~1 unless block ~ ~ ~ #unbreakable run fill ~ ~ ~ ~ ~ ~ air destroy
+execute positioned ~-1 ~ ~-1 unless block ~ ~ ~ #unbreakable run fill ~ ~ ~ ~ ~ ~ air destroy
+execute positioned ~ ~ ~ unless block ~ ~ ~ #unbreakable run fill ~ ~ ~ ~ ~ ~ air destroy
+
+execute positioned ~1 ~1 ~ unless block ~ ~ ~ #unbreakable run fill ~ ~ ~ ~ ~ ~ air destroy
+execute positioned ~ ~1 ~1 unless block ~ ~ ~ #unbreakable run fill ~ ~ ~ ~ ~ ~ air destroy
+execute positioned ~-1 ~1 ~ unless block ~ ~ ~ #unbreakable run fill ~ ~ ~ ~ ~ ~ air destroy
+execute positioned ~ ~1 ~-1 unless block ~ ~ ~ #unbreakable run fill ~ ~ ~ ~ ~ ~ air destroy
+execute positioned ~1 ~1 ~1 unless block ~ ~ ~ #unbreakable run fill ~ ~ ~ ~ ~ ~ air destroy
+execute positioned ~1 ~1 ~-1 unless block ~ ~ ~ #unbreakable run fill ~ ~ ~ ~ ~ ~ air destroy
+execute positioned ~-1 ~1 ~1 unless block ~ ~ ~ #unbreakable run fill ~ ~ ~ ~ ~ ~ air destroy
+execute positioned ~-1 ~1 ~-1 unless block ~ ~ ~ #unbreakable run fill ~ ~ ~ ~ ~ ~ air destroy
+execute positioned ~ ~1 ~ unless block ~ ~ ~ #unbreakable run fill ~ ~ ~ ~ ~ ~ air destroy
+
+execute positioned ~1 ~-1 ~ unless block ~ ~ ~ #unbreakable run fill ~ ~ ~ ~ ~ ~ air destroy
+execute positioned ~ ~-1 ~1 unless block ~ ~ ~ #unbreakable run fill ~ ~ ~ ~ ~ ~ air destroy
+execute positioned ~-1 ~-1 ~ unless block ~ ~ ~ #unbreakable run fill ~ ~ ~ ~ ~ ~ air destroy
+execute positioned ~ ~-1 ~-1 unless block ~ ~ ~ #unbreakable run fill ~ ~ ~ ~ ~ ~ air destroy
+execute positioned ~1 ~-1 ~1 unless block ~ ~ ~ #unbreakable run fill ~ ~ ~ ~ ~ ~ air destroy
+execute positioned ~1 ~-1 ~-1 unless block ~ ~ ~ #unbreakable run fill ~ ~ ~ ~ ~ ~ air destroy
+execute positioned ~-1 ~-1 ~1 unless block ~ ~ ~ #unbreakable run fill ~ ~ ~ ~ ~ ~ air destroy
+execute positioned ~-1 ~-1 ~-1 unless block ~ ~ ~ #unbreakable run fill ~ ~ ~ ~ ~ ~ air destroy
+execute positioned ~ ~-1 ~ unless block ~ ~ ~ #unbreakable run fill ~ ~ ~ ~ ~ ~ air destroy

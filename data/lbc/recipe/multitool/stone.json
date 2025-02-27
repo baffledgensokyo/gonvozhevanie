@@ -1,0 +1,87 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        "stone_pickaxe",
+        "stone_axe",
+        "stone_hoe",
+        "stone_sword",
+        "stone_shovel"
+    ],
+    "result": {
+        "id": "minecraft:stone_hoe",
+        "components": {
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:attack_damage",
+                        "id": "4vuc6ujnimh9uloyubndtcrfe",
+                        "amount": 6,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "minecraft:attack_speed",
+                        "id": "zsrhev6uhjtviyikycdtyhjxd4jt",
+                        "amount": -2.6,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    }
+                ],
+                "show_in_tooltip": true
+            },
+            "minecraft:item_name": "\"Незеритовый мульти-инструмент\"",
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:tool": {
+                "rules": [
+                    {
+                        "blocks": "#incorrect_for_stone_tool",
+                        "speed": 4,
+                        "correct_for_drops": false
+                    },
+                    {
+                        "blocks": "#bamboo",
+                        "speed": 148852,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#minecraft:sword_efficient",
+                        "speed": 4,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#mineable/pickaxe",
+                        "speed": 4,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#mineable/shovel",
+                        "speed": 4,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#mineable/hoe",
+                        "speed": 4,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#mineable/axe",
+                        "speed": 4,
+                        "correct_for_drops": true
+                    }
+                ],
+                "default_mining_speed": 4,
+                "damage_per_block": 1
+            },
+            "max_damage": 650,
+            "damage": 0,
+            "max_stack_size": 1,
+            "enchantable": {
+                "value": 5
+                
+            },
+            "item_model": "minecraft:stone_pickaxe"
+        },
+        "count": 1
+    }
+}

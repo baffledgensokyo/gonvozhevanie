@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "lbc:auto_smelter",
+        "lbc:light",
+        "lbc:balls_grabber"
+    ]
+}

@@ -1,0 +1,1 @@
+$summon item ~ ~1.5 ~ {Item:{id:"$(id)",components:$(components),count:$(count)},PickupDelay:10}

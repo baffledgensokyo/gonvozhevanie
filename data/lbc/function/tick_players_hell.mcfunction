@@ -1,0 +1,1 @@
+execute at @s if entity @s[y=127,dy=1000000] run function lbc:hell/tick_players

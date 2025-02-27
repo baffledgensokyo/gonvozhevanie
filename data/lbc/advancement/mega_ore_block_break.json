@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "durability": {
+                    "max": 499
+                },
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "dense_ore": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "requirement"
+        ]
+    ],
+    "rewards": {
+        "function": "lbc:items/dense_ore/block_break"
+    }
+}

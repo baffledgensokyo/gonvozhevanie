@@ -1,0 +1,2 @@
+execute unless score aggressive_hell lbc.math matches 1 run playsound entity.warden.heartbeat master @s ~ 100000000 ~ 1000000000 1.4
+execute if predicate lbc:chance10 run scoreboard players set aggressive_hell lbc.math 1

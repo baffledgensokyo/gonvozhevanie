@@ -1,0 +1,60 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "1",
+        "1",
+        "2"
+    ],
+    "key": {
+        "1": "minecraft:netherite_ingot",
+        "2": "minecraft:blaze_rod"
+    },
+    "result": {
+        "id": "minecraft:netherite_sword",
+        "components": {
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:attack_damage",
+                        "id": "picyef56uht7iykkkkkkkke",
+                        "amount": 9,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "minecraft:attack_speed",
+                        "id": "foasifgh7ig7f7ur6txd6ydsgd",
+                        "amount": -2.4,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    }
+                ],
+                "show_in_tooltip": true
+            },
+            "minecraft:item_name": "\"Адский меч\"",
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:tool": {
+                "rules": [
+                    {
+                        "blocks": "#sword_efficient",
+                        "speed": 19,
+                        "correct_for_drops": true
+                    }
+                ],
+                "default_mining_speed": 1,
+                "damage_per_block": 1
+            },
+            "max_damage": 6448,
+            "damage": 0,
+            "max_stack_size": 1,
+            "enchantable": {
+                "value": 16
+            },
+            "custom_data": {
+                "autosmelt": true
+            }
+        },
+        "count": 1
+    }
+}

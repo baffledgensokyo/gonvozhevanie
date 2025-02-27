@@ -1,0 +1,50 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bedrock"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:panda_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "\"Пустотное семя\"",
+                                "minecraft:lore": [
+                                    "{\"text\":\"Позволяет разместить пустоту\",\"italic\":false,\"color\":\"#9effe7\"}",
+                                    "{\"text\":\"Скармливайте ей предметы, чтобы семя расцвело.\",\"italic\":false,\"color\":\"#9effe7\"}",
+                                    "{\"text\":\"Может существовать только в обычном мире!\",\"italic\":false,\"color\":\"#9effe7\"}"
+                                ],
+                                "minecraft:item_model": "minecraft:black_dye",
+                                "minecraft:enchantment_glint_override": true,
+                                "entity_data": {
+                                    "id": "marker",
+                                    "Tags": [
+                                        "5_tick_raycast",
+                                        "void"
+                                    ]
+                                }
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

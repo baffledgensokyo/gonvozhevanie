@@ -1,0 +1,69 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "131",
+        "131",
+        "232"
+    ],
+    "key": {
+        "1": "minecraft:netherite_ingot",
+        "2": "minecraft:dragon_breath",
+        "3": "minecraft:chorus_flower"
+    },
+    "result": {
+        "id": "minecraft:netherite_boots",
+        "components": {
+            "minecraft:item_name": "\"Адские ботинки\"",
+            "minecraft:lore": [
+                "[{\"text\":\"Чаропортал!\",\"italic\":false,\"color\":\"aqua\"}]",
+                "[{\"text\":\"Shift + Смотреть Вверх: телепортирует наверх\",\"italic\":false,\"color\":\"aqua\"}]",
+                "[{\"text\":\"Shift + Смотреть Вниз: телепортирует вниз\",\"italic\":false,\"color\":\"aqua\"}]"
+            ],
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:armor",
+                        "id": "gdg1hkjkhjk94757",
+                        "amount": 6,
+                        "operation": "add_value",
+                        "slot": "feet"
+                    },
+                    {
+                        "type": "minecraft:armor_toughness",
+                        "id": "gs1dfhhfhgkg75",
+                        "amount": 6,
+                        "operation": "add_value",
+                        "slot": "feet"
+                    },
+                    {
+                        "type": "minecraft:burning_time",
+                        "id": "gd1htgdtjnrtjth",
+                        "amount": -0.25,
+                        "operation": "add_multiplied_base",
+                        "slot": "feet"
+                    },
+                    {
+                        "type": "minecraft:knockback_resistance",
+                        "id": "j15t656786587",
+                        "amount": 0.25,
+                        "operation": "add_value",
+                        "slot": "feet"
+                    }
+                ],
+                "show_in_tooltip": true
+            },
+            "minecraft:max_damage": 1337,
+            "minecraft:trim": {
+                "material": "minecraft:gold",
+                "pattern": "minecraft:sentry",
+                "show_in_tooltip": false
+            },
+            "custom_data": {
+                "hell_boots": true
+            }
+        },
+        "count": 1
+    }
+}

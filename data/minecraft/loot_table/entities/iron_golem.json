@@ -1,0 +1,98 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:poppy"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        }
+      ],
+      "rolls": 1.0
+    },{
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_golem_spawn_egg",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance_with_enchanted_bonus",
+              "enchanted_chance": {
+                "type": "linear",
+                "base": 0.005,
+                "per_level_above_first": 0.005
+              },
+              "enchantment": "lbc:balls_grabber",
+              "unenchanted_chance": 0
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_golem_spawn_egg",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.0075
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "attacker",
+              "predicate": {
+                "equipment": {
+                  "legs": {
+                    "predicates": {
+                      "minecraft:custom_data": {
+                        "hell_leggings": true
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:entities/iron_golem"
+}

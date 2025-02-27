@@ -1,0 +1,2 @@
+execute as @a run tellraw @s [{"color":"aqua","italic":false,"text":"Дискорд сервер: ","clickEvent":{"action":"open_url","value":"https://discord.com/invite/b-gensokyo"}},{"bold":true,"clickEvent":{"action":"open_url","value":"https://discord.com/invite/b-gensokyo"},"color":"blue","italic":false,"text":"discord.gg/b-gensokyo","underlined":true},{"bold":false,"color":"aqua","italic":false,"text":" (Зайди, чтобы не потерять мир!)","underlined":false,"clickEvent":{"action":"open_url","value":"https://discord.com/invite/b-gensokyo"}}]
+schedule function lbc:prom 900s

@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        "232",
+        "212",
+        "232"
+    ],
+    "key": {
+        "1": "minecraft:magenta_glazed_terracotta",
+        "2": "minecraft:wind_charge",
+        "3": "minecraft:redstone"
+    },
+    "result": {
+        "id": "minecraft:panda_spawn_egg",
+        "components": {
+            "minecraft:item_name": "\"Воздушный конвейер\"",
+            "minecraft:lore": [
+                "{\"text\":\"Куда-то далеко-далеко\",\"italic\":false,\"color\":\"#9effe7\"}"
+            ],
+            "minecraft:item_model": "minecraft:magenta_glazed_terracotta",
+            "minecraft:enchantment_glint_override": true,
+            "entity_data": {
+                "id": "marker",
+                "Tags": [
+                    "5_tick_raycast",
+                    "conveyer",
+                    "conveyer_3"
+                ]
+            }
+        },
+        "count": 1
+    }
+}
