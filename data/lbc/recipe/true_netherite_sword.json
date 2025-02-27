@@ -18,7 +18,7 @@
                     {
                         "type": "minecraft:attack_damage",
                         "id": "picyef56uht7iykkkkkkkke",
-                        "amount": 9,
+                        "amount": 10,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },

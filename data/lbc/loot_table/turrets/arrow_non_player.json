@@ -1,0 +1,36 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:panda_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "\"Турель (Стрелы) (Не игроки)\"",
+                                "minecraft:lore": [
+                                    "{\"text\":\"Стреляет стрелами, пока они не кончатся!\",\"italic\":false,\"color\":\"#9effe7\"}",
+                                    "{\"text\":\"Стреляет по всем кроме игроков\",\"italic\":false,\"color\":\"#9effe7\"}"
+                                ],
+                                "minecraft:item_model": "minecraft:dispenser",
+                                "minecraft:enchantment_glint_override": true,
+                                "entity_data": {
+                                    "id": "marker",
+                                    "Tags": [
+                                        "5_tick_raycast",
+                                        "tick_raycast",
+                                        "turret",
+                                        "turret_arrow_non_player"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

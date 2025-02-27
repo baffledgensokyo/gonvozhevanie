@@ -1,0 +1,44 @@
+{
+    "criteria": {
+      "uslovie": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                    "items": "bow"
+                }
+            ]
+        }
+    }
+    },
+    "requirements": [
+      [
+        "uslovie"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "lbc:turret_arrow_hostile",
+        "lbc:turret_arrow_non_player",
+        "lbc:turret_arrow_whitelistedmobs",
+        "lbc:turret_arrow_blacklistedmobs",
+        "lbc:turret_arrow_blacklistednames",
+        "lbc:turret_arrow_whitelistednames",
+        
+        "lbc:turret_magic_hostile",
+        "lbc:turret_magic_non_player",
+        "lbc:turret_magic_whitelistedmobs",
+        "lbc:turret_magic_blacklistedmobs",
+        "lbc:turret_magic_blacklistednames",
+        "lbc:turret_magic_whitelistednames",
+        
+        "lbc:turret_railgun_hostile",
+        "lbc:turret_railgun_non_player",
+        "lbc:turret_railgun_whitelistedmobs",
+        "lbc:turret_railgun_blacklistedmobs",
+        "lbc:turret_railgun_blacklistednames",
+        "lbc:turret_railgun_whitelistednames"
+      ],
+      "experience": 5
+    }
+  }

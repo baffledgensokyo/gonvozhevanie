@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ chest run function lbc:items/turrets/break
