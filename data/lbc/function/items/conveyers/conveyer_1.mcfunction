@@ -1,4 +1,4 @@
-execute if block ~ ~ ~ magenta_glazed_terracotta[facing=north] as @e[type=item,distance=..0.4] run data modify entity @s Motion set value [0.0,0.5,1.2]
-execute if block ~ ~ ~ magenta_glazed_terracotta[facing=south] as @e[type=item,distance=..0.4] run data modify entity @s Motion set value [0.0,0.5,-1.2]
-execute if block ~ ~ ~ magenta_glazed_terracotta[facing=west] as @e[type=item,distance=..0.4] run data modify entity @s Motion set value [1.2,0.5,0.0]
-execute if block ~ ~ ~ magenta_glazed_terracotta[facing=east] as @e[type=item,distance=..0.4] run data modify entity @s Motion set value [-1.2,0.5,0.0]
+execute if block ~ ~-.5 ~ magenta_glazed_terracotta[facing=north] as @e[type=item,distance=..0.66] run data modify entity @s Motion set value [0.0,0.5,1.2]
+execute if block ~ ~-.5 ~ magenta_glazed_terracotta[facing=south] as @e[type=item,distance=..0.66] run data modify entity @s Motion set value [0.0,0.5,-1.2]
+execute if block ~ ~-.5 ~ magenta_glazed_terracotta[facing=west] as @e[type=item,distance=..0.66] run data modify entity @s Motion set value [1.2,0.5,0.0]
+execute if block ~ ~-.5 ~ magenta_glazed_terracotta[facing=east] as @e[type=item,distance=..0.66] run data modify entity @s Motion set value [-1.2,0.5,0.0]

@@ -4,3 +4,4 @@ execute if entity @s[tag=xray] if block ~ ~ ~ #airs_only run kill @s
 execute if entity @s[tag=freezer_render] run function lbc:items/freezer/glack
 execute if entity @s[tag=voidfire] run function lbc:hell/voidfire_tick
 execute if entity @s[tag=overchanter] run function lbc:items/overchanter/tick
+execute if entity @s[tag=turret] run function lbc:items/turrets/tick
