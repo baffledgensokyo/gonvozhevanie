@@ -21,7 +21,7 @@
                 "throwed_item":true
             },
             "minecraft:item_name": "\"Слеза Угхста\"",
-            "minecraft:enchantment_glint_override": true,
+            "minecraft:item_model":"minecraft:ughst_tear",
             "consumable": {"consume_seconds": 100000000000000},
             "minecraft:lore": [
               "{\"text\":\"На земле: сосёт предметы\",\"italic\":false,\"color\":\"#9effe7\"}",

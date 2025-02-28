@@ -1,4 +1,4 @@
-$execute if block ~ ~ ~ observer[facing=south] run loot spawn ~ ~ ~-1 mine $(x) $(y) $(z)
+$execute if block ~ ~ ~ observer[facing=south] run loot spawn ~ ~ ~-.1 mine $(x) $(y) $(z)
 $execute if block ~ ~ ~ observer[facing=north] run loot spawn ~ ~ ~1 mine $(x) $(y) $(z)
 $execute if block ~ ~ ~ observer[facing=west] run loot spawn ~1 ~ ~ mine $(x) $(y) $(z)
 $execute if block ~ ~ ~ observer[facing=east] run loot spawn ~-1 ~ ~ mine $(x) $(y) $(z)

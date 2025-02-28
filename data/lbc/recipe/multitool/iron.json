@@ -31,7 +31,6 @@
                 "show_in_tooltip": true
             },
             "minecraft:item_name": "\"Железный мульти-инструмент\"",
-            "minecraft:enchantment_glint_override": true,
             "minecraft:tool": {
                 "rules": [
                     {
@@ -79,7 +78,7 @@
             "enchantable": {
                 "value": 14
             },
-            "item_model": "minecraft:iron_pickaxe"
+            "item_model": "minecraft:iron_multitool"
         },
         "count": 1
     }

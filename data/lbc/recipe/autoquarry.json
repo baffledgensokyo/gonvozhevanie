@@ -20,8 +20,7 @@
             "minecraft:lore": [
                 "{\"text\":\"Добывает минералы из глубин мира\",\"italic\":false,\"color\":\"#9effe7\"}"
             ],
-            "minecraft:item_model": "minecraft:observer",
-            "minecraft:enchantment_glint_override": true,
+            "minecraft:item_model": "minecraft:autoquarry",
             "entity_data": {
                 "id": "marker",
                 "Tags": [

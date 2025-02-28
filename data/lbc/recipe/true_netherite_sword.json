@@ -33,7 +33,7 @@
                 "show_in_tooltip": true
             },
             "minecraft:item_name": "\"Адский меч\"",
-            "minecraft:enchantment_glint_override": true,
+            "minecraft:item_model":"minecraft:hell_sword",
             "minecraft:tool": {
                 "rules": [
                     {

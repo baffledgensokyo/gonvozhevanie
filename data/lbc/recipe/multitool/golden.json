@@ -31,7 +31,6 @@
                 "show_in_tooltip": true
             },
             "minecraft:item_name": "\"Золотой мульти-инструмент\"",
-            "minecraft:enchantment_glint_override": true,
             "minecraft:tool": {
                 "rules": [
                     {
@@ -79,7 +78,7 @@
             "enchantable": {
                 "value": 22
             },
-            "item_model": "minecraft:golden_pickaxe"
+            "item_model": "minecraft:golden_multitool"
         },
         "count": 1
     }

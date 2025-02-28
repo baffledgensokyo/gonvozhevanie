@@ -15,7 +15,7 @@
                                     "[{\"text\":\"Стрела через секунду перемещает игрока к себе\",\"italic\":false,\"color\":\"aqua\"}]",
                                     "[{\"text\":\"Стрелы летят быстро и без гравитации\",\"italic\":false,\"color\":\"aqua\"}]"
                                 ],
-                                "minecraft:enchantment_glint_override": true,
+                                "item_model":"minecraft:warp_bow",
                                 "custom_data": {
                                     "warp_bow": true
                                 }

@@ -31,7 +31,6 @@
                 "show_in_tooltip": true
             },
             "minecraft:item_name": "\"Алмазный мульти-инструмент\"",
-            "minecraft:enchantment_glint_override": true,
             "minecraft:tool": {
                 "rules": [
                     {
@@ -79,7 +78,7 @@
             "enchantable": {
                 "value": 10
             },
-            "item_model": "minecraft:diamond_pickaxe"
+            "item_model": "minecraft:diamond_multitool"
         },
         "count": 1
     }

@@ -30,8 +30,7 @@
                 ],
                 "show_in_tooltip": true
             },
-            "minecraft:item_name": "\"Незеритовый мульти-инструмент\"",
-            "minecraft:enchantment_glint_override": true,
+            "minecraft:item_name": "\"Каменный мульти-инструмент\"",
             "minecraft:tool": {
                 "rules": [
                     {
@@ -80,7 +79,7 @@
                 "value": 5
                 
             },
-            "item_model": "minecraft:stone_pickaxe"
+            "item_model": "minecraft:stone_multitool"
         },
         "count": 1
     }

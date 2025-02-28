@@ -158,7 +158,7 @@
                                     "[{\"text\":\"ПКМ: Подсвечивает гуманоидов и руды вокруг\",\"italic\":false,\"color\":\"aqua\"}]",
                                     "[{\"text\":\"Расходуется\",\"italic\":false,\"color\":\"aqua\"}]"
                                 ],
-                                "minecraft:enchantment_glint_override": true,
+                                "item_model":"minecraft:mother_spider_eye",
                                 "custom_data": {
                                     "mother_spider_eye": true
                                 },
