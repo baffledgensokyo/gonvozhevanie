@@ -1,0 +1,1 @@
+$tag @e[type=$(tmp2),distance=..$(dist)] remove blacklisted

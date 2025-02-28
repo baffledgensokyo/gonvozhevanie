@@ -6,7 +6,7 @@ execute unless entity @a[gamemode=!spectator,distance=..5] run kill @s
 scoreboard players set @s distance 0
 execute positioned ~ ~1.5 ~ facing entity @e[type=minecraft:marker,tag=grapping_hook_pos,tag=grapnow] eyes run function lbc:items/grapping_hook/grapping_hook_tick_particle
 execute positioned ~ ~1.5 ~ facing entity @e[type=minecraft:marker,tag=grapping_hook_pos,tag=grapnow] eyes rotated ~ ~-20 run function lbc:raycast_vpered_slower_vect
-execute positioned ~ ~1.5 ~ rotated as @p[gamemode=!spectator] run function lbc:raycast_vpered_slowest_vect
+execute positioned ~ ~1.5 ~ rotated as @p run function lbc:raycast_vpered_slowest_vect
 execute if entity @e[type=minecraft:marker,distance=..10,tag=grapping_hook_pos,tag=grapnow] run effect give @s minecraft:slow_falling 1 1 true
 
 tag @e[type=minecraft:marker,tag=grapping_hook_pos] remove grapnow

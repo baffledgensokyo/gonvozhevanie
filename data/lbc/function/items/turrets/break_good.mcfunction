@@ -1,4 +1,4 @@
-kill @e[type=item,nbt={Item:{id:"minecraft:dispenser"}},nbt=!{Item:{components:{"minecraft:custom_data":{"turret":true}}}},distance=..1,limit=1]
+kill @e[type=item,nbt={Item:{id:"minecraft:chest"}},nbt=!{Item:{components:{"minecraft:custom_data":{"turret":true}}}},distance=..1,limit=1]
 
 execute if entity @s[tag=turret_arrow_blacklistedmobs] run loot spawn ~ ~ ~ loot lbc:turrets/arrow_blacklistedmobs
 execute if entity @s[tag=turret_arrow_blacklistednames] run loot spawn ~ ~ ~ loot lbc:turrets/arrow_blacklistednames

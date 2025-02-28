@@ -5,3 +5,4 @@ execute if entity @s[tag=freezer_render] run function lbc:items/freezer/glack
 execute if entity @s[tag=voidfire] run function lbc:hell/voidfire_tick
 execute if entity @s[tag=overchanter] run function lbc:items/overchanter/tick
 execute if entity @s[tag=turret] run function lbc:items/turrets/tick
+execute if entity @s[tag=magic_charge] run function lbc:items/turrets/magic_charge_tick

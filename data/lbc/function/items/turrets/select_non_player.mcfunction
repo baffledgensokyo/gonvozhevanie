@@ -1,0 +1,1 @@
+tag @a[distance=..30] add blacklisted
