@@ -1,0 +1,1 @@
+tag @e[type=#non_hostile,distance=..30] add blacklisted
