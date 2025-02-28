@@ -19,7 +19,8 @@
             "minecraft:item_name": "\"Турель (Мегаплавильня) (Белый список имён)\"",
             "minecraft:lore": [
                 "{\"text\":\"Стреляет только по тем мобам, чьи имена есть\",\"italic\":false,\"color\":\"#9effe7\"}",
-                "{\"text\":\"в названиях предметов в сундуке турели\",\"italic\":false,\"color\":\"#9effe7\"}"
+                "{\"text\":\"в названиях предметов в сундуке турели\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"Назовите предмет \\\"_\\\" чтобы включить всех безымянных мобов\",\"italic\":false,\"color\":\"#9effe7\"}"
             ],
             "minecraft:item_model": "minecraft:dispenser",
             "minecraft:enchantment_glint_override": true,
