@@ -1,1 +1,1 @@
-$tag @e[type=#mobs,name=$(tmp1),distance=..30] remove blacklisted
+$tag @e[type=#mobs,name=$(tmp1),distance=..$(dist)] remove blacklisted

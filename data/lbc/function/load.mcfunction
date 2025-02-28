@@ -9,4 +9,6 @@ function lbc:tick_10s
 function lbc:tick_5s
 function lbc:tick_5t
 function lbc:tick_2s
+function lbc:tick_3s
+function lbc:tick_15s
 function lbc:prom

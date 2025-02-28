@@ -27,7 +27,7 @@
             "entity_data": {
                 "id": "marker",
                 "Tags": [
-                    "15_sec_raycast",
+                    "1_sec_raycast",
                     "tick_raycast",
                     "turret",
                     "turret_railgun_blacklistednames"
