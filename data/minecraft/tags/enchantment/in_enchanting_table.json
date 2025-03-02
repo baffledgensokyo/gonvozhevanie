@@ -2,6 +2,7 @@
     "replace": false,
     "values": [
         "lbc:auto_smelter",
-        "lbc:light"
+        "lbc:light",
+        "lbc:echo_grabber"
     ]
 }

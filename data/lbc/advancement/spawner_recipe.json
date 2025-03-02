@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "uslovie": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "iron_bars",
+                            "experience_bottle"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "uslovie"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "lbc:spawner"
+        ],
+        "experience": 5
+    }
+}

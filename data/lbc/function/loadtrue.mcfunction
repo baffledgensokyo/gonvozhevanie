@@ -37,3 +37,4 @@ team add aqua
 team modify aqua color aqua
 gamerule maxCommandChainLength 2147483647
 gamerule commandModificationBlockLimit 2147483647
+gamerule doImmediateRespawn true

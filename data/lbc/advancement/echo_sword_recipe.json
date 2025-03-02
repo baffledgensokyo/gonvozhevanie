@@ -1,0 +1,29 @@
+{
+    "criteria": {
+      "uslovie": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "echo_shard",
+                "enchanting_table",
+                "enchanted_book"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "uslovie"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "lbc:echo_sword"
+      ],
+      "experience": 5
+    }
+  }
