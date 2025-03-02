@@ -1,0 +1,59 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:any_of",
+                        "terms": [
+                            {
+                                "entity": "this",
+                                "condition": "minecraft:entity_properties",
+                                "predicate": {
+                                    "equipment": {
+                                        "mainhand": {
+                                            "predicates": {
+                                                "minecraft:enchantments": [
+                                                    {
+                                                        "enchantments": "lbc:echo_grabber"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "entity": "this",
+                                "condition": "minecraft:entity_properties",
+                                "predicate": {
+                                    "equipment": {
+                                        "mainhand": {
+                                            "predicates": {
+                                                "minecraft:custom_data": {
+                                                    "echo_sword": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "entity": {
+                    "type": "player"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "requirement"
+        ]
+    ],
+    "rewards": {
+        "function": "lbc:items/echo_sword/kill"
+    }
+}

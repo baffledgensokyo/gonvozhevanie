@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "uslovie": {
+            "trigger": "entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "player"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "uslovie"
+        ]
+    ]
+}

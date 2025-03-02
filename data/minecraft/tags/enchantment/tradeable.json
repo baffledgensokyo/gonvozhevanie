@@ -3,6 +3,7 @@
     "values": [
         "lbc:auto_smelter",
         "lbc:light",
-        "lbc:balls_grabber"
+        "lbc:balls_grabber",
+        "lbc:echo_grabber"
     ]
 }

@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "lbc:balls_grabber"
+        "lbc:balls_grabber",
+        "lbc:echo_grabber"
     ]
 }

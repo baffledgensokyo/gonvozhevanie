@@ -8,3 +8,5 @@ execute as @e[type=minecraft:pig,tag=hook_sit] at @s run function lbc:items/grap
 execute as @e[type=giant,tag=freezer] at @s run function lbc:items/freezer/tick
 execute as @e[type=wither_skeleton,tag=voidman] at @s run function lbc:mobs/voidman/tick
 execute in the_nether if score aggressive_hell lbc.math matches 1 positioned 0 126 0 run function lbc:hell/aggressive_tick
+
+advancement revoke @a only lbc:player_killed_by_player
