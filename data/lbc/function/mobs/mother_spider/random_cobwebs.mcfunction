@@ -44,3 +44,4 @@ execute if predicate lbc:chance3 at @s positioned ~2 ~1 ~2 run fill ~ ~ ~ ~ ~ ~ 
 execute if predicate lbc:chance3 at @s positioned ~2 ~2 ~1 run fill ~ ~ ~ ~ ~ ~ cobweb replace #airs_only
 execute if predicate lbc:chance3 at @s positioned ~2 ~2 ~2 run fill ~ ~ ~ ~ ~ ~ cobweb replace #airs_only
 execute at @s run particle item_cobweb ~ ~1 ~ 1 1 1 0 50 normal
+kill @s
