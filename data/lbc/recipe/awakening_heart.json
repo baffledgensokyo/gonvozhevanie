@@ -49,7 +49,7 @@
       "components": {
         "item_name":"\"Пробуждающееся сердце моря\"",
         "item_model":"awakening_heart",
-        "custom_data": {"awakening_heart":true},
+        "custom_data": {"awakening_heart":true,"throwed_item":true},
         "lore": [
               "{\"text\":\"Сердце издает неслышимый звук.\",\"italic\":false,\"color\":\"#9effe7\"}",
               "{\"text\":\"§6Дельфинам §rочень хотелось бы поиграть с этим.\",\"italic\":false,\"color\":\"#9effe7\"}"

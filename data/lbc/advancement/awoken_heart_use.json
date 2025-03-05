@@ -1,0 +1,53 @@
+{
+  "criteria": {
+    "uslovie": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "offhand": {
+                    "predicates": {
+                      "minecraft:custom_data": {"awoken_trident":true}
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "predicates": {
+                    "minecraft:custom_data": {
+                      "awoken_heart": true
+                    }
+                  }
+                },
+                "offhand": {
+                  "items": "minecraft:trident"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "uslovie"
+    ]
+  ],
+  "rewards": {
+    "function": "lbc:items/awoken_heart/use"
+  }
+}
