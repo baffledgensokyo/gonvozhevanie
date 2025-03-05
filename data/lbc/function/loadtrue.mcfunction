@@ -13,6 +13,7 @@ scoreboard objectives add rccd dummy
 scoreboard objectives add wind_staff_cooldown dummy
 scoreboard objectives add hell_running dummy
 scoreboard objectives add timer dummy
+scoreboard objectives add use_trident minecraft.used:minecraft.trident
 team add spiders
 team modify spiders friendlyFire false
 team add red

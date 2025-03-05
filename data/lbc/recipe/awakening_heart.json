@@ -1,0 +1,59 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "",
+    "category": "misc",
+    "pattern": [
+      "BMP",
+      "Y#R",
+      "SCS"
+    ],
+    "key": {
+      "B": [
+        "minecraft:tube_coral",
+        "minecraft:tube_coral_block",
+        "minecraft:tube_coral_fan"
+      ],
+      "M": [
+        "minecraft:bubble_coral",
+        "minecraft:bubble_coral_block",
+        "minecraft:bubble_coral_fan"
+      ],
+      "P": [
+        "minecraft:brain_coral",
+        "minecraft:brain_coral_block",
+        "minecraft:brain_coral_fan"
+      ],
+      "Y": [
+        "minecraft:horn_coral",
+        "minecraft:horn_coral_block",
+        "minecraft:horn_coral_fan"
+      ],
+      "R": [
+        "minecraft:fire_coral",
+        "minecraft:fire_coral_block",
+        "minecraft:fire_coral_fan"
+      ],
+      "#": [
+        "minecraft:conduit"
+      ],
+      "S": [
+        "minecraft:prismarine_shard"
+      ],
+      "C": [
+        "minecraft:prismarine_crystals"
+      ]
+    },
+    "result": {
+      "id": "repeating_command_block",
+      "count": 1,
+      "components": {
+        "item_name":"\"Пробуждающееся сердце моря\"",
+        "item_model":"awakening_heart",
+        "custom_data": {"awakening_heart":true,"throwed_item":true},
+        "lore": [
+              "{\"text\":\"Сердце издает неслышимый звук.\",\"italic\":false,\"color\":\"#9effe7\"}",
+              "{\"text\":\"§6Дельфинам §rочень хотелось бы поиграть с этим.\",\"italic\":false,\"color\":\"#9effe7\"}"
+            ]
+      }
+    }
+  }

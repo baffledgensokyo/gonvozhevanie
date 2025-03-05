@@ -1,2 +1,3 @@
 execute if data entity @s Item.components."minecraft:custom_data".driller run function lbc:items/thrown_items/driller/add_tag
 execute if data entity @s Item.components."minecraft:custom_data".ughst_tear if entity @e[type=item,distance=0.001..1] run function lbc:items/thrown_items/ughst_tear/tick
+execute if data entity @s Item.components."minecraft:custom_data".awakening_heart if entity @e[type=dolphin,distance=..1.5] run function lbc:items/thrown_items/awakening_heart/run
