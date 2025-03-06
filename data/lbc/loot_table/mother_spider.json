@@ -14,14 +14,14 @@
                                 "minecraft:lore": [
                                     "[{\"text\":\"Кидайтесь паутиной из рук\",\"italic\":false,\"color\":\"aqua\"}]"
                                 ],
-                                "minecraft:enchantment_glint_override": true,
+                                
                                 "custom_data": {
                                     "grapping_hook": true
                                 },
                                 "consumable": {
                                     "consume_seconds": 100000000000000
                                 },
-                                "item_model": "cobweb"
+                                "item_model": "grappling_hook"
                             }
                         }
                     ],
