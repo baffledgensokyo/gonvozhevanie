@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "1",
+        "2",
+        "3"
+    ],
+    "key": {
+        "1": "minecraft:iron_nugget",
+        "2": "minecraft:wind_charge",
+        "3": "minecraft:copper_ingot"
+    },
+    "result": {
+        "id": "minecraft:repeating_command_block",
+        "components": {
+            "minecraft:item_name": "\"Свечкосдувалка\"",
+            "minecraft:lore": [
+                "{\"text\":\"Задувает свечи и огонь\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"Уничтожает блоки света (от зачарования Свечение)\",\"italic\":false,\"color\":\"#9effe7\"}"
+            ],
+            "minecraft:item_model": "minecraft:candle_killer",
+            "custom_data": {"candle_killer":true},
+            "consumable": {"consume_seconds":100000000000}
+        },
+        "count": 1
+    }
+}
