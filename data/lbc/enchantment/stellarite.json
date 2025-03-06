@@ -1,0 +1,28 @@
+{
+    "anvil_cost": 0,
+    "description": "Неразрушимость",
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "change_item_damage",
+                    "amount": -10000
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 65,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 30,
+        "per_level_above_first": 0
+    },
+    "slots": [
+        "any"
+    ],
+    "supported_items": "#minecraft:enchantable/durability",
+    "weight": 1
+}

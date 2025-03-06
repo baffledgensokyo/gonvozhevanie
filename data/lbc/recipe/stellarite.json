@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "121",
+        "232",
+        "121"
+    ],
+    "key": {
+        "1": "minecraft:bedrock",
+        "2": "minecraft:barrier",
+        "3": "minecraft:anvil"
+    },
+    "result": {
+        "id": "minecraft:enchanted_book",
+        "components": {
+            "minecraft:item_name": "\"Вечный Стелларит\"",
+            "minecraft:lore": [
+                "[{\"text\":\"При объединении в наковальне с предметом,\",\"italic\":false,\"color\":\"aqua\"}]",
+                "[{\"text\":\"делает его полностью неразрушимым.\",\"italic\":false,\"color\":\"aqua\"}]"
+            ],
+            "minecraft:item_model": "minecraft:bedrock",
+            "enchantment_glint_override": true,
+            "stored_enchantments": {
+                "lbc:stellarite": 1
+            }
+        },
+        "count": 1
+    }
+}
