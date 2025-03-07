@@ -16,7 +16,7 @@ execute store result score tmp lbc.math run data get entity @s data.consumed_ite
 execute store result score tmpd lbc.math run data get entity @s data.consumed_items 0.0355
 scoreboard players add tmp lbc.math 1000
 scoreboard players add tmpd lbc.math 1
-execute store result storage lbc.math t15 double 0.003 run scoreboard players get tmp lbc.math
+execute store result storage lbc.math t15 double 0.00086605 run scoreboard players get tmp lbc.math
 execute store result storage lbc.math t1 double 0.001 run data get entity @s data.consumed_items
 execute store result storage lbc.math t05 double 0.0005 run data get entity @s data.consumed_items
 function lbc:items/void/tick_5t_storaged with storage lbc.math
