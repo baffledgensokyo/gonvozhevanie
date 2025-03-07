@@ -1,9 +1,12 @@
 execute in minecraft:overworld run function lbc:loadtrue
 execute in minecraft:the_end run function lbc:loadtrue
 execute in minecraft:the_nether run function lbc:loadtrue
+scoreboard players set -1 lbc.math -1
+scoreboard players set 1 lbc.math 1
 scoreboard players set 3 lbc.math 3
 scoreboard players set 2 lbc.math 2
 scoreboard players set 4 lbc.math 4
+scoreboard players set 1000 lbc.math 1000
 function lbc:tick_1s
 function lbc:tick_10s
 function lbc:tick_5s

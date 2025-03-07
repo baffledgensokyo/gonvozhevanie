@@ -1,0 +1,7 @@
+{
+	"values": [
+        "#minecraft:mobs",
+        "#minecraft:projectiles",
+        "item"
+    ]
+}
