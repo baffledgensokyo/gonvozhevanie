@@ -62,7 +62,6 @@
                                     "wind_staff": true
                                 },
                                 "minecraft:item_name": "\"Воздушный жезл\"",
-                                "minecraft:enchantment_glint_override": true,
                                 "use_cooldown": {
                                     "seconds": 3
                                 },
@@ -74,7 +73,7 @@
                                 "minecraft:lore": [
                                     "{\"text\":\"ПКМ: Выстреливает воздушным снарядом\",\"italic\":false,\"color\":\"#9effe7\"}"
                                 ],
-                                "item_model": "breeze_rod",
+                                "item_model": "breeze_wand",
                                 "max_damage": 64,
                                 "damage": 0,
                                 "max_stack_size": 1

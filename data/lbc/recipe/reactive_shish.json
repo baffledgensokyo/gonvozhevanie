@@ -22,7 +22,7 @@
             },
             "minecraft:item_name": "\"Реактивный щищ\"",
             "minecraft:lore": [
-                "[{\"text\":\"ПКМ: запускает игрока вверх\",\"italic\":false,\"color\":\"aqua\"}]"
+                "[{\"text\":\"ПКМ: запускает игрока вверх\",\"italic\":false,\"color\":\"#9effe7\"}]"
             ],
             "minecraft:item_model": "minecraft:jet_shish",
             "custom_data": {

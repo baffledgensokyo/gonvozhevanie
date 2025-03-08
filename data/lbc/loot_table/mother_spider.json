@@ -12,7 +12,7 @@
                             "components": {
                                 "minecraft:item_name": "\"Паучий шёлк\"",
                                 "minecraft:lore": [
-                                    "[{\"text\":\"Кидайтесь паутиной из рук\",\"italic\":false,\"color\":\"aqua\"}]"
+                                    "[{\"text\":\"Кидайтесь паутиной из рук\",\"italic\":false,\"color\":\"#9effe7\"}]"
                                 ],
                                 
                                 "custom_data": {
@@ -154,9 +154,9 @@
                             "components": {
                                 "minecraft:item_name": "\"Глаз ткача\"",
                                 "minecraft:lore": [
-                                    "[{\"text\":\"Делает почти всех пауков мирными, находясь в руке\",\"italic\":false,\"color\":\"aqua\"}]",
-                                    "[{\"text\":\"ПКМ: Подсвечивает гуманоидов и руды вокруг\",\"italic\":false,\"color\":\"aqua\"}]",
-                                    "[{\"text\":\"Расходуется\",\"italic\":false,\"color\":\"aqua\"}]"
+                                    "[{\"text\":\"Делает почти всех пауков мирными, находясь в руке\",\"italic\":false,\"color\":\"#9effe7\"}]",
+                                    "[{\"text\":\"ПКМ: Подсвечивает гуманоидов и руды вокруг\",\"italic\":false,\"color\":\"#9effe7\"}]",
+                                    "[{\"text\":\"Расходуется\",\"italic\":false,\"color\":\"#9effe7\"}]"
                                 ],
                                 "item_model":"minecraft:mother_spider_eye",
                                 "custom_data": {

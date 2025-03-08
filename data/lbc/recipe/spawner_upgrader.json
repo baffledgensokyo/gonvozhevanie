@@ -18,7 +18,7 @@
                 "mode": 0
             },
             "minecraft:item_name": "\"Инструмент улучшения спаунера\"",
-            "minecraft:item_model":"minecraft:trial_key",
+            "minecraft:item_model":"spawner_upgrade_tool",
             "consumable": {"consume_seconds": 100000000000000},
             "minecraft:lore": [
               "{\"text\":\"ПКМ по спавнеру улучшает его, расходуя ресурсы\",\"italic\":false,\"color\":\"#9effe7\"}",

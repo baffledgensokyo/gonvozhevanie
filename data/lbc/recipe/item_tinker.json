@@ -19,16 +19,16 @@
                 "animation": "none",
                 "has_consume_particles": false
             },
-            "item_model": "anvil",
+            "item_model": "enchanted_reforger",
             "max_damage": 5,
             "damage": 0,
             "max_stack_size": 1,
             "minecraft:item_name": "\"Зачарованный перековщик\"",
             "minecraft:lore": [
-                "[{\"text\":\"ПКМ по лежащему на земле предмету:\",\"italic\":false,\"color\":\"aqua\"}]",
-                "[{\"text\":\"Обнуляет стоймость починки и стоймость\",\"italic\":false,\"color\":\"aqua\"}]",
-                "[{\"text\":\"зачарования этого предмета на наковальне\",\"italic\":false,\"color\":\"aqua\"}]",
-                "[{\"text\":\"(Избавьтесь от 'Слишком Дорого!')\",\"italic\":false,\"color\":\"aqua\"}]"
+                "[{\"text\":\"ПКМ по лежащему на земле предмету:\",\"italic\":false,\"color\":\"#9effe7\"}]",
+                "[{\"text\":\"Обнуляет стоймость починки и стоймость\",\"italic\":false,\"color\":\"#9effe7\"}]",
+                "[{\"text\":\"зачарования этого предмета на наковальне\",\"italic\":false,\"color\":\"#9effe7\"}]",
+                "[{\"text\":\"(Избавьтесь от 'Слишком Дорого!')\",\"italic\":false,\"color\":\"#9effe7\"}]"
             ],
             "enchantment_glint_override": true,
             "custom_data": {

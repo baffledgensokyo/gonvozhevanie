@@ -15,8 +15,8 @@
         "components": {
             "minecraft:item_name": "\"Адские поножи\"",
             "minecraft:lore": [
-                "[{\"text\":\"Огромные мои яйца.\",\"italic\":false,\"color\":\"aqua\"}]",
-                "[{\"text\":\"С мобов редко будут падать их яйца.\",\"italic\":false,\"color\":\"aqua\"}]"
+                "[{\"text\":\"Огромные мои яйца.\",\"italic\":false,\"color\":\"#9effe7\"}]",
+                "[{\"text\":\"С мобов редко будут падать их яйца.\",\"italic\":false,\"color\":\"#9effe7\"}]"
             ],
             "minecraft:enchantment_glint_override": true,
             "minecraft:attribute_modifiers": {

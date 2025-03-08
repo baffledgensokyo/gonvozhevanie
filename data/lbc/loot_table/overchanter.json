@@ -17,10 +17,11 @@
                                     "{\"text\":\"уровня так, чтобы луч смотрел в несколлапсированную\",\"italic\":false,\"color\":\"#9effe7\"}",
                                     "{\"text\":\"пустотную дыру сверху.\",\"italic\":false,\"color\":\"#9effe7\"}"
                                 ],
-                                "minecraft:item_model": "minecraft:red_stained_glass",
-                                "minecraft:enchantment_glint_override": true,
+                                "minecraft:item_model": "minecraft:void_prism",
+                                
                                 "entity_data": {
-                                    "id": "marker",
+                                    "id": "item_display",
+                                    "item": {"id":"red_dye","count":1,"components": {"item_model":"void_prism"}},
                                     "Tags": [
                                         "overchanter",
                                         "tick_raycast"
