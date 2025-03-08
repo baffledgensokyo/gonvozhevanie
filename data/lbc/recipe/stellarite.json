@@ -16,8 +16,8 @@
         "components": {
             "minecraft:item_name": "\"Вечный Стелларит\"",
             "minecraft:lore": [
-                "[{\"text\":\"При объединении в наковальне с предметом,\",\"italic\":false,\"color\":\"aqua\"}]",
-                "[{\"text\":\"делает его полностью неразрушимым.\",\"italic\":false,\"color\":\"aqua\"}]"
+                "[{\"text\":\"При объединении в наковальне с предметом,\",\"italic\":false,\"color\":\"#9effe7\"}]",
+                "[{\"text\":\"делает его полностью неразрушимым.\",\"italic\":false,\"color\":\"#9effe7\"}]"
             ],
             "minecraft:item_model": "minecraft:bedrock",
             "enchantment_glint_override": true,

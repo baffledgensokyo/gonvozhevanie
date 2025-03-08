@@ -12,8 +12,8 @@
                             "components": {
                                 "minecraft:item_name": "\"Варп-лук\"",
                                 "minecraft:lore": [
-                                    "[{\"text\":\"Стрела через секунду перемещает игрока к себе\",\"italic\":false,\"color\":\"aqua\"}]",
-                                    "[{\"text\":\"Стрелы летят быстро и без гравитации\",\"italic\":false,\"color\":\"aqua\"}]"
+                                    "[{\"text\":\"Стрела через секунду перемещает игрока к себе\",\"italic\":false,\"color\":\"#9effe7\"}]",
+                                    "[{\"text\":\"Стрелы летят быстро и без гравитации\",\"italic\":false,\"color\":\"#9effe7\"}]"
                                 ],
                                 "item_model":"minecraft:warp_bow",
                                 "custom_data": {

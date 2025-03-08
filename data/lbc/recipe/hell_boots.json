@@ -16,9 +16,9 @@
         "components": {
             "minecraft:item_name": "\"Адские ботинки\"",
             "minecraft:lore": [
-                "[{\"text\":\"Чаропортал!\",\"italic\":false,\"color\":\"aqua\"}]",
-                "[{\"text\":\"Shift + Смотреть Вверх: телепортирует наверх\",\"italic\":false,\"color\":\"aqua\"}]",
-                "[{\"text\":\"Shift + Смотреть Вниз: телепортирует вниз\",\"italic\":false,\"color\":\"aqua\"}]"
+                "[{\"text\":\"Чаропортал!\",\"italic\":false,\"color\":\"#9effe7\"}]",
+                "[{\"text\":\"Shift + Смотреть Вверх: телепортирует наверх\",\"italic\":false,\"color\":\"#9effe7\"}]",
+                "[{\"text\":\"Shift + Смотреть Вниз: телепортирует вниз\",\"italic\":false,\"color\":\"#9effe7\"}]"
             ],
             "minecraft:enchantment_glint_override": true,
             "minecraft:attribute_modifiers": {

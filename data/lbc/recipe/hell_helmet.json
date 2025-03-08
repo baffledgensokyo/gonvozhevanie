@@ -14,7 +14,7 @@
         "components": {
             "minecraft:item_name": "\"Адский шлем\"",
             "minecraft:lore": [
-                "[{\"text\":\"Пожиратель драконов.\",\"italic\":false,\"color\":\"aqua\"}]"
+                "[{\"text\":\"Пожиратель драконов.\",\"italic\":false,\"color\":\"#9effe7\"}]"
             ],
             "minecraft:enchantment_glint_override": true,
             "minecraft:attribute_modifiers": {
