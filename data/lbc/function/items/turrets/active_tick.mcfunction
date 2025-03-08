@@ -1,1 +1,1 @@
-execute unless block ~ ~ ~ chest run function lbc:items/turrets/break
+execute unless block ~ ~ ~ barrel run function lbc:items/turrets/break

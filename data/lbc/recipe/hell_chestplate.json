@@ -46,7 +46,7 @@
                         "id": "j5t6j65rhtgerghkjhjkgtr",
                         "amount": 0.25,
                         "operation": "add_value",
-                        "slot": "chest"
+                        "slot": "barrel"
                     }
                 ],
                 "show_in_tooltip": true
