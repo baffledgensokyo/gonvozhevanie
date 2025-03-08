@@ -92,6 +92,7 @@
         "#wooden_slabs",
         "#wooden_stairs",
         "#wooden_trapdoors",
-        "#logs"
+        "#logs",
+        "light"
     ]
 }
