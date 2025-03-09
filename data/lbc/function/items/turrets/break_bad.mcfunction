@@ -1,5 +1,5 @@
-kill @e[type=item,nbt={Item:{id:"minecraft:chest"}},nbt=!{Item:{components:{"minecraft:custom_data":{"turret":true}}}},distance=..3,limit=1]
-fill ~1.1 ~1.1 ~1.1 ~-1.1 ~-1.1 ~-1.1 air replace chest
+kill @e[type=item,nbt={Item:{id:"minecraft:barrel"}},nbt=!{Item:{components:{"minecraft:custom_data":{"turret":true}}}},distance=..3,limit=1]
+fill ~1.1 ~1.1 ~1.1 ~-1.1 ~-1.1 ~-1.1 air replace barrel
 execute if entity @s[tag=turret_arrow_blacklistedmobs] run loot spawn ~ ~ ~ loot lbc:turrets/arrow_blacklistedmobs
 execute if entity @s[tag=turret_arrow_blacklistednames] run loot spawn ~ ~ ~ loot lbc:turrets/arrow_blacklistednames
 execute if entity @s[tag=turret_arrow_hostile] run loot spawn ~ ~ ~ loot lbc:turrets/arrow_hostile

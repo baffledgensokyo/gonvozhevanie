@@ -4,7 +4,7 @@
         "minecraft:lava",
         "minecraft:water",
         "minecraft:powder_snow",
-        "air",
-        "cave_air"
+        "cave_air",
+        "void_air"
     ]
 }
