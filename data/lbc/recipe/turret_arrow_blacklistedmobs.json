@@ -22,7 +22,7 @@
                 "{\"text\":\"Стреляет только по тем мобам, чьих id нет\",\"italic\":false,\"color\":\"#9effe7\"}",
                 "{\"text\":\"в названиях предметов в сундуке турели\",\"italic\":false,\"color\":\"#9effe7\"}"
             ],
-            "minecraft:item_model": "minecraft:dispenser",
+            "minecraft:item_model": "turret/item/arrow_mob_blacklist",
             "minecraft:enchantment_glint_override": true,
             "entity_data": {
                 "id": "item_display",

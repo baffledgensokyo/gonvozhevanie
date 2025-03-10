@@ -21,7 +21,7 @@
                 "{\"text\":\"Стреляет только по тем мобам, чьи id есть\",\"italic\":false,\"color\":\"#9effe7\"}",
                 "{\"text\":\"в названиях предметов в сундуке турели\",\"italic\":false,\"color\":\"#9effe7\"}"
             ],
-            "minecraft:item_model": "minecraft:dispenser",
+            "minecraft:item_model": "turret/item/magic_mob_whitelist",
             "minecraft:enchantment_glint_override": true,
             "entity_data": {
                 "id": "item_display",

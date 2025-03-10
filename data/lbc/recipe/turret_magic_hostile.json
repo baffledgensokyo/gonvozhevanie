@@ -20,7 +20,7 @@
             "minecraft:lore": [
                 "{\"text\":\"Стреляет только по монстрам\",\"italic\":false,\"color\":\"#9effe7\"}"
             ],
-            "minecraft:item_model": "minecraft:dispenser",
+            "minecraft:item_model": "turret/item/magic_monsters",
             "minecraft:enchantment_glint_override": true,
             "entity_data": {
                 "id": "item_display",
