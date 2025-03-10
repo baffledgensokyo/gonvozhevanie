@@ -20,7 +20,7 @@
             "minecraft:lore": [
                 "{\"text\":\"Стреляет по всем кроме игроков\",\"italic\":false,\"color\":\"#9effe7\"}"
             ],
-            "minecraft:item_model": "minecraft:dispenser",
+            "minecraft:item_model": "turret/item/magic_not_players",
             "minecraft:enchantment_glint_override": true,
             "entity_data": {
                 "id": "item_display",

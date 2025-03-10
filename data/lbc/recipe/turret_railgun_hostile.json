@@ -21,7 +21,7 @@
                 "{\"text\":\"Стреляет стрелами, пока они не кончатся!\",\"italic\":false,\"color\":\"#9effe7\"}",
                 "{\"text\":\"Стреляет только по монстрам\",\"italic\":false,\"color\":\"#9effe7\"}"
             ],
-            "minecraft:item_model": "minecraft:dispenser",
+            "minecraft:item_model": "turret/item/railgun_monsters",
             "minecraft:enchantment_glint_override": true,
             "entity_data": {
                 "id": "item_display",
