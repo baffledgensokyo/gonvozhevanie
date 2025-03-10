@@ -16,7 +16,8 @@
         "components": {
             "minecraft:item_name": "\"Жемчужный конвейер\"",
             "minecraft:lore": [
-                "{\"text\":\"Телепортирует сущности над собой!\",\"italic\":false,\"color\":\"#9effe7\"}"
+                "{\"text\":\"Телепортирует сущности над собой\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"в направлении стрелки! (Блок)\",\"italic\":false,\"color\":\"#9effe7\"}"
             ],
             "minecraft:item_model": "minecraft:conveyor_ender",
             "entity_data": {

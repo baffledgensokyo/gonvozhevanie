@@ -18,7 +18,8 @@
         "components": {
             "minecraft:item_name": "\"Трансбур\"",
             "minecraft:lore": [
-                "{\"text\":\"Добывает минералы из глубин мира\",\"italic\":false,\"color\":\"#9effe7\"}"
+                "{\"text\":\"Добывает минералы из глубин мира\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"(Блок)\",\"italic\":false,\"color\":\"#9effe7\"}"
             ],
             "minecraft:item_model": "minecraft:autoquarry",
             "entity_data": {

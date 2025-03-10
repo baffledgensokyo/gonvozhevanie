@@ -15,14 +15,14 @@
                 "modifiers": [
                     {
                         "type": "minecraft:attack_damage",
-                        "id": "4vuc6ujnimh9uloyubndtcrfe",
+                        "id": "minecraft:base_attack_damage",
                         "amount": 6,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
                         "type": "minecraft:attack_speed",
-                        "id": "zsrhev6uhjtviyikycdtyhjxd4jt",
+                        "id": "minecraft:base_attack_speed",
                         "amount": -2.6,
                         "operation": "add_value",
                         "slot": "mainhand"

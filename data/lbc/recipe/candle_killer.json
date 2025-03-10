@@ -17,7 +17,7 @@
             "minecraft:item_name": "\"Свечкосдувалка\"",
             "minecraft:lore": [
                 "{\"text\":\"Задувает свечи и огонь\",\"italic\":false,\"color\":\"#9effe7\"}",
-                "{\"text\":\"Уничтожает блоки света (от зачарования Свечение)\",\"italic\":false,\"color\":\"#9effe7\"}"
+                "{\"text\":\"Уничтожает блоки света (ПКМ)\",\"italic\":false,\"color\":\"#9effe7\"}"
             ],
             "minecraft:item_model": "minecraft:candle_killer",
             "custom_data": {"candle_killer":true},

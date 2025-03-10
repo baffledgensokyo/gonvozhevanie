@@ -16,7 +16,8 @@
         "components": {
             "minecraft:item_name": "\"Механический конвейер\"",
             "minecraft:lore": [
-                "{\"text\":\"Двигает предметы над собой!\",\"italic\":false,\"color\":\"#9effe7\"}"
+                "{\"text\":\"Двигает предметы над собой\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"в направлении стрелки! (Блок)\",\"italic\":false,\"color\":\"#9effe7\"}"
             ],
             "minecraft:item_model": "minecraft:conveyor_mechanical",
             "entity_data": {

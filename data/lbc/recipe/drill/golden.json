@@ -1,0 +1,113 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "1 ",
+        "1 ",
+        "34"
+    ],
+    "key": {
+        "1": "gold_block",
+        "2": "lodestone",
+        "3": "copper_ingot",
+        "4": "stone_button"
+    },
+    "result": {
+        "id": "minecraft:golden_hoe",
+        "components": {
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:attack_damage",
+                        "id": "minecraft:base_attack_damage",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "minecraft:attack_speed",
+                        "id": "minecraft:base_attack_speed",
+                        "amount": -3.0,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "minecraft:entity_interaction_range",
+                        "id": "minecraft:base_entity_interaction_range",
+                        "amount": 3.0,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "minecraft:block_interaction_range",
+                        "id": "minecraft:base_block_interaction_range",
+                        "amount": 3.0,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    }
+                ],
+                "show_in_tooltip": true
+            },
+            "minecraft:item_name": "\"Золотая дрель\"",
+            "minecraft:lore": [
+                "{\"text\":\"Быстро бурит линию длинной до 24 блоков\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"Расходует по 4 редстоуна при удачной раскопке\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"Может сам разбирать редстоуновые блоки~!\",\"italic\":false,\"color\":\"#9effe7\"}"
+            ],
+            "minecraft:tool": {
+                "rules": [
+                    {
+                        "blocks": "#incorrect_for_gold_tool",
+                        "speed": 12,
+                        "correct_for_drops": false
+                    },
+                    {
+                        "blocks": "#bamboo",
+                        "speed": 148852,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#minecraft:sword_efficient",
+                        "speed": 12,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#mineable/pickaxe",
+                        "speed": 12,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#mineable/shovel",
+                        "speed": 12,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#mineable/hoe",
+                        "speed": 12,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#mineable/axe",
+                        "speed": 12,
+                        "correct_for_drops": true
+                    }
+                ],
+                "default_mining_speed": 12,
+                "damage_per_block": 1
+            },
+            "max_damage": 76,
+            "damage": 0,
+            "max_stack_size": 1,
+            "enchantable": {
+                "value": 14
+            },
+            "item_model": "minecraft:gold_axe",
+            "enchantment_glint_override": true,
+            "custom_data": {
+                "golden_drill": true
+            },
+            "consumable": {"consume_seconds": 100000000000000}
+        },
+        "count": 1
+    }
+}

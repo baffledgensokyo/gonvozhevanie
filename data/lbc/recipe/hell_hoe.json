@@ -17,7 +17,7 @@
                 "modifiers": [
                     {
                         "type": "minecraft:attack_damage",
-                        "id": "picyehdffjfyjtt6t",
+                        "id": "minecraft:base_attack_damage",
                         "amount": 2,
                         "operation": "add_value",
                         "slot": "mainhand"
@@ -26,6 +26,9 @@
                 "show_in_tooltip": true
             },
             "minecraft:item_name": "\"Адская мотыга\"",
+            "minecraft:lore": [
+                "{\"text\":\"Встроенная автоплавка\",\"italic\":false,\"color\":\"#9effe7\"}"
+            ],
             "minecraft:item_model":"minecraft:hell_hoe",
             "minecraft:tool": {
                 "rules": [

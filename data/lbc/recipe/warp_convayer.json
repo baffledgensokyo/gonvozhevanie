@@ -16,7 +16,9 @@
         "components": {
             "minecraft:item_name": "\"Воздушный конвейер\"",
             "minecraft:lore": [
-                "{\"text\":\"Куда-то далеко-далеко\",\"italic\":false,\"color\":\"#9effe7\"}"
+                "{\"text\":\"Куда-то далеко-далеко\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"Перебрасывает сущность сверху в выбранном\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"направлении примерно на 800-1000 блоков\",\"italic\":false,\"color\":\"#9effe7\"}"
             ],
             "minecraft:item_model": "minecraft:conveyor_air",
             "entity_data": {

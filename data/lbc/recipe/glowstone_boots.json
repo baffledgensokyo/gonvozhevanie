@@ -16,7 +16,7 @@
             "minecraft:item_name": "\"Окрашенные светопылью сапоги\"",
             "minecraft:lore": [
                 "{\"text\":\"Пыль сыпется с них, создавая\",\"italic\":false,\"color\":\"#9effe7\"}",
-                "{\"text\":\"незримые источники света.\",\"italic\":false,\"color\":\"#9effe7\"}"
+                "{\"text\":\"незримые блоки света при хождении в темноте.\",\"italic\":false,\"color\":\"#9effe7\"}"
             ],
             "minecraft:enchantment_glint_override": true,
             "custom_data": {

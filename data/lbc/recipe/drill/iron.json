@@ -1,0 +1,99 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        " 1 ",
+        "121",
+        " 34"
+    ],
+    "key": {
+        "1": "iron_block",
+        "2": "lodestone",
+        "3": "copper_ingot",
+        "4": "stone_button"
+    },
+    "result": {
+        "id": "minecraft:iron_hoe",
+        "components": {
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:attack_damage",
+                        "id": "minecraft:base_attack_damage",
+                        "amount": 4,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "minecraft:attack_speed",
+                        "id": "minecraft:base_attack_speed",
+                        "amount": -3.0,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    }
+                ],
+                "show_in_tooltip": true
+            },
+            "minecraft:item_name": "\"Железный бур\"",
+            "minecraft:lore": [
+                "{\"text\":\"Быстро бурит блоки в области 3х3х3\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"Расходует по 4 редстоуна при удачной раскопке\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"Может сам разбирать редстоуновые блоки~!\",\"italic\":false,\"color\":\"#9effe7\"}"
+            ],
+            "minecraft:tool": {
+                "rules": [
+                    {
+                        "blocks": "#incorrect_for_iron_tool",
+                        "speed": 6,
+                        "correct_for_drops": false
+                    },
+                    {
+                        "blocks": "#bamboo",
+                        "speed": 148852,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#minecraft:sword_efficient",
+                        "speed": 6,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#mineable/pickaxe",
+                        "speed": 6,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#mineable/shovel",
+                        "speed": 6,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#mineable/hoe",
+                        "speed": 6,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#mineable/axe",
+                        "speed": 6,
+                        "correct_for_drops": true
+                    }
+                ],
+                "default_mining_speed": 6,
+                "damage_per_block": 1
+            },
+            "max_damage": 356,
+            "damage": 0,
+            "max_stack_size": 1,
+            "enchantable": {
+                "value": 14
+            },
+            "item_model": "minecraft:iron_axe",
+            "enchantment_glint_override": true,
+            "custom_data": {
+                "iron_drill": true
+            },
+            "consumable": {"consume_seconds": 100000000000000}
+        },
+        "count": 1
+    }
+}

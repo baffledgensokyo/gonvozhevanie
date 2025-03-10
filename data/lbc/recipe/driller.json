@@ -16,8 +16,8 @@
         "components": {
             "minecraft:item_name": "\"Дробящий шар\"",
             "minecraft:lore": [
-                "{\"text\":\"Будучи выброшенным на пол, через несколько\",\"italic\":false,\"color\":\"#9effe7\"}",
-              "{\"text\":\"секунд разрушает блоки вокруг себя\",\"italic\":false,\"color\":\"#9effe7\"}"
+                "{\"text\":\"Будучи выброшенным на пол, вскоре\",\"italic\":false,\"color\":\"#9effe7\"}",
+              "{\"text\":\"разрушает блоки вокруг себя\",\"italic\":false,\"color\":\"#9effe7\"}"
             ],
             "minecraft:item_model": "minecraft:crushing_ball",
             "custom_data": {

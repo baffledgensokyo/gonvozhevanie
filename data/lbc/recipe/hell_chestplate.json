@@ -15,7 +15,8 @@
         "components": {
             "minecraft:item_name": "\"Адский нагрудник\"",
             "minecraft:lore": [
-                "[{\"text\":\"Лётная погода.\",\"italic\":false,\"color\":\"#9effe7\"}]"
+                "[{\"text\":\"Лётная погода.\",\"italic\":false,\"color\":\"#9effe7\"}]",
+                "[{\"text\":\"(Встроенные элитры)\",\"italic\":false,\"color\":\"#9effe7\"}]"
             ],
             "minecraft:enchantment_glint_override": true,
             "minecraft:attribute_modifiers": {

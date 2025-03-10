@@ -26,4 +26,4 @@ $execute if items entity @s weapon.mainhand repeating_command_block[custom_data~
 $execute if items entity @s weapon.mainhand repeating_command_block[custom_data~{ore:"copper"}] run give @s raw_copper $(10x)
 
 item replace entity @s weapon.mainhand with air
-playsound entity.item.break master @a ~ ~ ~ 1 1
+playsound entity.item.break player @a ~ ~ ~ 1 1

@@ -17,14 +17,14 @@
                 "modifiers": [
                     {
                         "type": "minecraft:attack_damage",
-                        "id": "picyb6u7kjvftdtcgkkke",
+                        "id": "minecraft:base_attack_damage",
                         "amount": 5,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
                         "type": "minecraft:attack_speed",
-                        "id": "fohfjygyjgjydsgd",
+                        "id": "minecraft:base_attack_speed",
                         "amount": -2,
                         "operation": "add_value",
                         "slot": "mainhand"
@@ -34,7 +34,7 @@
             },
             "minecraft:item_name": "\"Меч эха\"",
             "minecraft:lore": [
-                "{\"text\":\"Убийство игроков выбивает их инвентарь\",\"italic\":false,\"color\":\"#9effe7\"}"
+                "{\"text\":\"Убийство игроков мечом выбивает их инвентарь\",\"italic\":false,\"color\":\"#9effe7\"}"
             ],
             "minecraft:tool": {
                 "rules": [

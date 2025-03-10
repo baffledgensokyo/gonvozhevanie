@@ -1,7 +1,7 @@
-playsound item.trident.riptide_1 master @a ~ ~ ~ 0.5 2
-playsound item.trident.riptide_1 master @a ~ ~ ~ 0.5 2
-playsound item.trident.riptide_1 master @a ~ ~ ~ 0.5 2
-playsound item.trident.riptide_1 master @a ~ ~ ~ 0.5 2
+playsound item.trident.riptide_1 player @a ~ ~ ~ 0.5 2
+playsound item.trident.riptide_1 player @a ~ ~ ~ 0.5 2
+playsound item.trident.riptide_1 player @a ~ ~ ~ 0.5 2
+playsound item.trident.riptide_1 player @a ~ ~ ~ 0.5 2
 particle crit ~ ~ ~ 0.5 0.5 0.5 0.5 10 normal
 summon marker ~ ~ ~ {Tags:["megapick_charge","tick_raycast"],data:{speed:1}}
 summon marker ~ ~ ~ {Tags:["megapick_charge","tick_raycast"],data:{speed:2}}
