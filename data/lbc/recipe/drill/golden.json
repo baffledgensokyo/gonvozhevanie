@@ -8,7 +8,6 @@
     ],
     "key": {
         "1": "gold_block",
-        "2": "lodestone",
         "3": "copper_ingot",
         "4": "stone_button"
     },
@@ -101,7 +100,7 @@
             "enchantable": {
                 "value": 14
             },
-            "item_model": "minecraft:gold_axe",
+            "item_model": "minecraft:golden_axe",
             "enchantment_glint_override": true,
             "custom_data": {
                 "golden_drill": true

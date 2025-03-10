@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:block",
+    "random_sequence": "minecraft:blocks/end_gateway",
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:panda_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "\"Червоточина\"",
+                                "minecraft:lore": [
+                                    "{\"text\":\"Создаёт портал, направленный ровно на 1500\",\"italic\":false,\"color\":\"#9effe7\"}",
+                                    "{\"text\":\"блоков вперёд и 50 блоков вверх\",\"italic\":false,\"color\":\"#9effe7\"}"
+                                ],
+                                "minecraft:item_model": "minecraft:ender_eye",
+                                "enchantment_glint_override":true,
+                                "entity_data": {
+                                    "id": "marker",
+                                    "Tags": [
+                                        "tick_raycast",
+                                        "portal_placer"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1.0
+        }
+    ]
+}

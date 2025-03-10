@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:block",
+    "random_sequence": "minecraft:blocks/bedrock",
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bedrock"
+                }
+            ],
+            "rolls": 1.0
+        }
+    ]
+}

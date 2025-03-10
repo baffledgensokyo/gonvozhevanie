@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:block",
+    "random_sequence": "minecraft:blocks/jigsaw",
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:jigsaw"
+                }
+            ],
+            "rolls": 1.0
+        }
+    ]
+}

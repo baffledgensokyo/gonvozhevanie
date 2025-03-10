@@ -1,0 +1,1 @@
+$setblock ~ ~.8 ~ end_gateway{ExactTeleport:true,exit_portal:[I;$(intx),$(inty),$(intz)]}

@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:block",
+    "random_sequence": "minecraft:blocks/end_gateway",
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:panda_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "\"Портал в край\"",
+                                "minecraft:item_model": "minecraft:ender_eye",
+                                "enchantment_glint_override":true,
+                                "entity_data": {
+                                    "id": "marker",
+                                    "Tags": [
+                                        "tick_raycast",
+                                        "end_portal_placer"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1.0
+        }
+    ]
+}
