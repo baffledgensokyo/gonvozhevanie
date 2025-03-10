@@ -27,6 +27,10 @@ execute if entity @s[tag=turret_arrow_non_player] run data modify block ~ ~ ~ Cu
 execute if entity @s[tag=turret_arrow_whitelistedmobs] run data modify block ~ ~ ~ CustomName set value "\"Турель (Стрела) (Белый список мобов)\""
 execute if entity @s[tag=turret_arrow_whitelistednames] run data modify block ~ ~ ~ CustomName set value "\"Турель (Стрела) (Белый список игроков)\""
 
+execute if entity @s[tag=turret_arrow] run summon item_display ~ ~ ~ {item:{id:"diamond",count:1,components:{"item_model":"turret/gun/arrow"}},Rotation:[0.0,0.0],Tags:["turret_visual"],brightness:{sky:15,block:15}}
+execute if entity @s[tag=turret_magic] run summon item_display ~ ~ ~ {item:{id:"diamond",count:1,components:{"item_model":"turret/gun/magic"}},Rotation:[0.0,0.0],Tags:["turret_visual"],brightness:{sky:15,block:15}}
+execute if entity @s[tag=turret_railgun] run summon item_display ~ ~ ~ {item:{id:"diamond",count:1,components:{"item_model":"turret/gun/railgun"}},Rotation:[0.0,0.0],Tags:["turret_visual"],brightness:{sky:15,block:15}}
+
 
 
 tag @a remove placer

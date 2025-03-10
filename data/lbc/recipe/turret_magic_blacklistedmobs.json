@@ -24,12 +24,22 @@
             "minecraft:item_model": "minecraft:dispenser",
             "minecraft:enchantment_glint_override": true,
             "entity_data": {
-                "id": "marker",
+                "id": "item_display",
+                "Rotation":[0.0,0.0],
+                "brightness":{"sky":15,"block":15},
+                "item":{
+                    "id":"diamond_block",
+                    "count":1,
+                    "components": {
+                        "item_model": "turret/case/mob_blacklist"
+                    }
+                },
                 "Tags": [
                     "3_sec_raycast",
                     "tick_raycast",
                     "turret",
-                    "turret_magic_blacklistedmobs"
+                    "turret_magic_blacklistedmobs",
+                    "turret_magic"
                 ]
             }
         },
