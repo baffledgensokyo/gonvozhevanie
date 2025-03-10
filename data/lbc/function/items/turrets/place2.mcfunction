@@ -1,9 +1,5 @@
 tag @p add placer
-execute unless block ~ ~ ~ #unbreakable if entity @a[tag=placer,limit=1,y_rotation=-45..45] run setblock ~ ~ ~ barrel[facing=north] destroy
-execute unless block ~ ~ ~ #unbreakable if entity @a[tag=placer,limit=1,y_rotation=46..135] run setblock ~ ~ ~ barrel[facing=east] destroy
-execute unless block ~ ~ ~ #unbreakable if entity @a[tag=placer,limit=1,y_rotation=136..180] run setblock ~ ~ ~ barrel[facing=south] destroy
-execute unless block ~ ~ ~ #unbreakable if entity @a[tag=placer,limit=1,y_rotation=-180..-136] run setblock ~ ~ ~ barrel[facing=south] destroy
-execute unless block ~ ~ ~ #unbreakable if entity @a[tag=placer,limit=1,y_rotation=-135..-46] run setblock ~ ~ ~ barrel[facing=west] destroy
+execute unless block ~ ~ ~ #unbreakable run setblock ~ ~ ~ barrel[facing=up] destroy
 
 execute if entity @s[tag=turret_railgun_blacklistedmobs] run data modify block ~ ~ ~ CustomName set value "\"Турель (Тепловой луч) (Чёрный список мобов)\""
 execute if entity @s[tag=turret_railgun_blacklistednames] run data modify block ~ ~ ~ CustomName set value "\"Турель (Тепловой луч) (Чёрный список имён)\""
