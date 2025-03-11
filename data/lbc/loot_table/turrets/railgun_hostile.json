@@ -15,15 +15,25 @@
                                     "{\"text\":\"Стреляет стрелами, пока они не кончатся!\",\"italic\":false,\"color\":\"#9effe7\"}",
                                     "{\"text\":\"Стреляет только по монстрам\",\"italic\":false,\"color\":\"#9effe7\"}"
                                 ],
-                                "minecraft:item_model": "minecraft:dispenser",
+                                "minecraft:item_model": "turret/item/railgun_monsters",
                                 "minecraft:enchantment_glint_override": true,
                                 "entity_data": {
-                                    "id": "marker",
+                                    "id": "item_display",
+                                    "Rotation":[0.0,0.0],
+                                    "brightness":{"sky":15,"block":15},
+                                    "item":{
+                                        "id":"diamond_block",
+                                        "count":1,
+                                        "components": {
+                                            "item_model": "turret/case/monsters"
+                                        }
+                                    },
                                     "Tags": [
                                         "1_sec_raycast",
                                         "tick_raycast",
                                         "turret",
-                                        "turret_railgun_hostile"
+                                        "turret_railgun_hostile",
+                                        "turret_railgun"
                                     ]
                                 }
                             }
