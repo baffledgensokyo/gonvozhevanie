@@ -1,6 +1,7 @@
 scoreboard players set i lbc.math 0
 data modify storage lbc.math i set value 0
 data modify storage lbc.math dist set value 30
+tag @e[type=#mobs,distance=..30] remove blacklisted
 execute if entity @s[tag=turret_arrow_blacklistedmobs] run function lbc:items/turrets/select_blacklisted_mobs with storage lbc.math
 execute if entity @s[tag=turret_arrow_blacklistednames] run function lbc:items/turrets/select_blacklistednames with storage lbc.math
 execute if entity @s[tag=turret_arrow_hostile] run function lbc:items/turrets/select_hostile
