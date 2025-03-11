@@ -15,15 +15,25 @@
                                     "{\"text\":\"Стреляет стрелами, пока они не кончатся!\",\"italic\":false,\"color\":\"#9effe7\"}",
                                     "{\"text\":\"Стреляет по всем кроме игроков\",\"italic\":false,\"color\":\"#9effe7\"}"
                                 ],
-                                "minecraft:item_model": "minecraft:dispenser",
+                                "minecraft:item_model": "turret/item/arrow_not_players",
                                 "minecraft:enchantment_glint_override": true,
                                 "entity_data": {
-                                    "id": "marker",
+                                    "id": "item_display",
+                                    "Rotation":[0.0,0.0],
+                                    "brightness":{"sky":15,"block":15},
+                                    "item":{
+                                        "id":"diamond_block",
+                                        "count":1,
+                                        "components": {
+                                            "item_model": "turret/case/not_players"
+                                        }
+                                    },
                                     "Tags": [
                                         "5_tick_raycast",
                                         "tick_raycast",
                                         "turret",
-                                        "turret_arrow_non_player"
+                                        "turret_arrow_non_player",
+                                        "turret_arrow"
                                     ]
                                 }
                             }
