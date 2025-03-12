@@ -35,7 +35,7 @@
                     }
                 },
                 "Tags": [
-                    "1_sec_raycast",
+                    "5_tick_raycast",
                     "tick_raycast",
                     "turret",
                     "turret_railgun_hostile",
