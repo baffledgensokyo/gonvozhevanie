@@ -464,7 +464,7 @@ execute unless block ^2.5 ^2.0 ^2.0 #hell_drill_incompatible run setblock ^2.5 ^
 
 
 scoreboard players set @s distance 10000
-execute if score if lbc.math matches 1 run clear @s redstone 7
+execute if score if lbc.math matches 1 run clear @s redstone 5
 execute if score if lbc.math matches 2 run clear @s redstone_block 1
-execute if score if lbc.math matches 2 run give @s redstone 2
+execute if score if lbc.math matches 2 run give @s redstone 4
 item modify entity @s weapon.mainhand lbc:damaged_hell_drill

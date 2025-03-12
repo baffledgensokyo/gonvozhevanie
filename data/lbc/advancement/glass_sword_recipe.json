@@ -1,25 +1,31 @@
 {
-    "criteria": {
-      "uslovie": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
+  "criteria": {
+    "uslovie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
             "items": [
-                {
-                    "items": "stick"
-                }
+              "glass",
+              "amethyst_block",
+              "amethyst_shard",
+              "tinted_glass"
             ]
-        }
+          }
+        ]
+      }
     }
-    },
-    "requirements": [
-      [
-        "uslovie"
-      ]
+  },
+  "requirements": [
+    [
+      "uslovie"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "lbc:glass_sword",
+      "lbc:tinted_glass_sword"
     ],
-    "rewards": {
-      "recipes": [
-        "lbc:glass_sword"
-      ],
-      "experience": 5
-    }
+    "experience": 5
   }
+}

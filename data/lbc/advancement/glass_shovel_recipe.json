@@ -1,0 +1,31 @@
+{
+    "criteria": {
+      "uslovie": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "glass",
+                "amethyst_block",
+                "amethyst_shard",
+                "tinted_glass"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "uslovie"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "lbc:glass_shovel",
+        "lbc:tinted_glass_shovel"
+      ],
+      "experience": 5
+    }
+  }

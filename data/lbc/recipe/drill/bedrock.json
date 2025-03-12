@@ -88,7 +88,9 @@
             "custom_data": {
                 "bedrock_drill": true
             },
-            "consumable": {"consume_seconds": 100000000000000}
+            "consumable": {"consume_seconds": 100000000000000},
+            "!max_damage": {},
+            "!damage": {}
         },
         "count": 1
     }
