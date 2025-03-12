@@ -3,7 +3,7 @@
     "category": "equipment",
     "pattern": [
         "1",
-        "1",
+        "2",
         "2"
     ],
     "key": {
@@ -11,39 +11,39 @@
         "2": "minecraft:stick"
     },
     "result": {
-        "id": "minecraft:wooden_sword",
+        "id": "minecraft:wooden_shovel",
         "components": {
             "minecraft:attribute_modifiers": {
                 "modifiers": [
                     {
                         "type": "minecraft:attack_damage",
                         "id": "minecraft:base_attack_damage",
-                        "amount": 19,
+                        "amount": 12,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
                         "type": "minecraft:attack_speed",
                         "id": "minecraft:base_attack_speed",
-                        "amount": -1.8,
+                        "amount": -1.4,
                         "operation": "add_value",
                         "slot": "mainhand"
                     }
                 ],
                 "show_in_tooltip": true
             },
-            "minecraft:item_name": "\"Стеклянный меч\"",
+            "minecraft:item_name": "\"Стеклянная лопата\"",
             "minecraft:lore": [
-                "{\"text\":\"Остроты не занимать, к тому же очень лёгкий!\",\"italic\":false,\"color\":\"#9effe7\"}",
-                "{\"text\":\"Вовсе не годится для боёв из-за свой хрупкости.\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"Остроты не занимать, к тому же очень лёгкая!\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"Вовсе не годится для раскопок из-за свой хрупкости.\",\"italic\":false,\"color\":\"#9effe7\"}",
                 "{\"text\":\"Совершенно бесполезно зачаровывать...\",\"italic\":false,\"color\":\"#9effe7\"}"
             ],
-            "minecraft:item_model":"minecraft:iron_sword",
+            "minecraft:item_model":"minecraft:iron_shovel",
             "minecraft:tool": {
                 "rules": [
                     {
-                        "blocks": "#sword_efficient",
-                        "speed": 1900,
+                        "blocks": "#mineable/shovel",
+                        "speed": 50,
                         "correct_for_drops": true
                     }
                 ],
