@@ -2,7 +2,7 @@
     "anvil_cost": 0,
     "description": "Вор душ",
     "max_cost": {
-        "base": 20,
+        "base": 255,
         "per_level_above_first": 0
     },
     "max_level": 20,
@@ -13,6 +13,6 @@
     "slots": [
         "any"
     ],
-    "supported_items": "#lbc:enchantable/armor_and_weapons",
-    "weight": 5
+    "supported_items": "#minecraft:enchantable/sharp_weapon",
+    "weight": 3
 }
