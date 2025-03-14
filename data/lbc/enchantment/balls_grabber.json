@@ -2,13 +2,13 @@
     "anvil_cost": 0,
     "description": "Вор душ",
     "max_cost": {
-        "base": 255,
-        "per_level_above_first": 0
+        "base": 65,
+        "per_level_above_first": 5
     },
-    "max_level": 20,
+    "max_level": 100,
     "min_cost": {
-        "base": 15,
-        "per_level_above_first": 1
+        "base": 1,
+        "per_level_above_first": 5
     },
     "slots": [
         "any"
