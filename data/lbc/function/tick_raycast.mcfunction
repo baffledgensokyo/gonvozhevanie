@@ -8,3 +8,4 @@ execute if entity @s[tag=turret] run function lbc:items/turrets/tick
 execute if entity @s[tag=magic_charge] run function lbc:items/turrets/magic_charge_tick
 execute if entity @s[tag=portal_placer] run function lbc:items/end_gateway/tick
 execute if entity @s[tag=end_portal_placer] run function lbc:items/end_portal/tick
+execute if entity @s[tag=tech_core] run function lbc:items/tech_core/tick

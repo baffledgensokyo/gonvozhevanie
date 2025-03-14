@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        "111",
+        "111",
+        "111"
+    ],
+    "key": {
+        "1": "minecraft:redstone_block"
+    },
+    "result": {
+        "id": "minecraft:repeating_command_block",
+        "components": {
+            "minecraft:item_name": "\"Батарейка\"",
+            "minecraft:lore": [
+                "{\"text\":\"Имеет заряд в 81 редстоун пыль\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"Используется в качестве редстоуна для меха-предметов\",\"italic\":false,\"color\":\"#9effe7\"}"
+            ],
+            "minecraft:item_model": "minecraft:redstone",
+            "enchantment_glint_override": true,
+            "custom_data": {"battery":true}
+        },
+        "count": 1
+    }
+}

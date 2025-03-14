@@ -1,0 +1,51 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "111",
+        "121",
+        "111"
+    ],
+    "key": {
+        "1": "minecraft:chiseled_copper",
+        "2": "minecraft:comparator"
+    },
+    "result": {
+        "id": "minecraft:panda_spawn_egg",
+        "components": {
+            "minecraft:item_name": "\"Техническое ядро\"",
+            "minecraft:lore": [
+                "{\"text\":\"* Соединяйте механизмы медными блоками, как проводами!\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"* Вырабатывайте энергию с помощью таких блоков, как:\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"  Рработающие печки!\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"  Громоотводы! (Когда в них бьёт молния)\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"  Датчики дневного света! (только днём)\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"  Скалк-сенсоры! (Энергия из звука!)\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"* ВНИМАНИЕ! Для создания машины, блок-ядро должно быть\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"  поставлено ТОЛЬКО КОГДА ВСЕ БЛОКИ МАШИНЫ УЖЕ ПОСТАВЛЕНЫ!\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"  Для перестройки машины, уберите ядро затем поставьте его заного.\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"* Для вывода энергии в виде редстоун пыли,\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"  поставьте в нужных местах красный факел.\",\"italic\":false,\"color\":\"#9effe7\"}"
+            ],
+            "minecraft:item_model": "minecraft:copper_block",
+            "minecraft:enchantment_glint_override": true,
+            "entity_data": {
+                "id": "item_display",
+                "Rotation":[0.0,0.0],
+                "brightness":{"sky":15,"block":15},
+                "item":{
+                    "id":"chiseled_copper",
+                    "count":1,
+                    "components": {}
+                },
+                "Tags": [
+                    "tick_raycast",
+                    "tech_core",
+                    "mecha_part"
+                ]
+                
+            }
+        },
+        "count": 1
+    }
+}
