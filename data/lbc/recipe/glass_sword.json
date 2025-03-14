@@ -38,7 +38,7 @@
                 "{\"text\":\"Вовсе не годится для боёв из-за свой хрупкости.\",\"italic\":false,\"color\":\"#9effe7\"}",
                 "{\"text\":\"Совершенно бесполезно зачаровывать...\",\"italic\":false,\"color\":\"#9effe7\"}"
             ],
-            "minecraft:item_model":"minecraft:iron_sword",
+            "minecraft:item_model":"minecraft:glass_sword",
             "minecraft:tool": {
                 "rules": [
                     {

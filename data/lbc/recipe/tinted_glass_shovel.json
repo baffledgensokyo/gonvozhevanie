@@ -38,7 +38,7 @@
                 "{\"text\":\"Вовсе не годится для раскопок из-за свой хрупкости.\",\"italic\":false,\"color\":\"#9effe7\"}",
                 "{\"text\":\"Прекрасно зачаровывается!\",\"italic\":false,\"color\":\"#9effe7\"}"
             ],
-            "minecraft:item_model":"minecraft:iron_shovel",
+            "minecraft:item_model":"minecraft:tinted_glass_shovel",
             "minecraft:tool": {
                 "rules": [
                     {

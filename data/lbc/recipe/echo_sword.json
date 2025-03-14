@@ -11,14 +11,14 @@
         "2": "minecraft:stick"
     },
     "result": {
-        "id": "minecraft:diamond_sword",
+        "id": "minecraft:netherite_sword",
         "components": {
             "minecraft:attribute_modifiers": {
                 "modifiers": [
                     {
                         "type": "minecraft:attack_damage",
                         "id": "minecraft:base_attack_damage",
-                        "amount": 5,
+                        "amount": 8,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
@@ -33,6 +33,7 @@
                 "show_in_tooltip": true
             },
             "minecraft:item_name": "\"Меч эха\"",
+            "minecraft:item_model":"echo_sword",
             "minecraft:lore": [
                 "{\"text\":\"Убийство игроков мечом выбивает их инвентарь\",\"italic\":false,\"color\":\"#9effe7\"}"
             ],
