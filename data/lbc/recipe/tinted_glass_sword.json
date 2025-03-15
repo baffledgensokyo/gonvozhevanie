@@ -54,7 +54,7 @@
             "damage": 0,
             "max_stack_size": 1,
             "enchantable": {
-                "value": 10000000
+                "value": 100
             }
         },
         "count": 1

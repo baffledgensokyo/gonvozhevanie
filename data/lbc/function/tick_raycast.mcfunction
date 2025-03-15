@@ -10,3 +10,4 @@ execute if entity @s[tag=portal_placer] run function lbc:items/end_gateway/tick
 execute if entity @s[tag=end_portal_placer] run function lbc:items/end_portal/tick
 execute if entity @s[tag=shock_wand_projectile] positioned ^ ^ ^2 run function lbc:items/shock_wand/fly
 execute if entity @s[tag=lightning_rod] run function lbc:items/shock_wand/lightning_rod/tick
+execute if entity @s[tag=tech_core] run function lbc:items/tech_core/tick
