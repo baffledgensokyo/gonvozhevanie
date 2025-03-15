@@ -43,6 +43,21 @@
         "minecraft:waxed_weathered_cut_copper",
         "minecraft:waxed_weathered_cut_copper_slab",
         "minecraft:waxed_weathered_cut_copper_stairs",
+        "minecraft:copper_grate",
+        "minecraft:exposed_copper_grate",
+        "minecraft:weathered_copper_grate",
+        "minecraft:oxidized_copper_grate",
+        "minecraft:waxed_copper_grate",
+        "minecraft:waxed_exposed_copper_grate",
+        "minecraft:waxed_weathered_copper_grate",
+        "minecraft:waxed_oxidized_copper_grate",
+        "minecraft:copper_bulb",
+        "minecraft:exposed_copper_bulb",
+        "minecraft:weathered_copper_bulb",
+        "minecraft:oxidized_copper_bulb",
+        "minecraft:spawner",
+        "minecraft:vault",
+        "minecraft:trial_spawner",
         "minecraft:wet_sponge",
         "minecraft:clay",
         "minecraft:netherite_block",
@@ -77,6 +92,8 @@
         "minecraft:activator_rail",
         "minecraft:cauldron",
         "minecraft:water_cauldron",
-        "minecraft:water"
+        "minecraft:water",
+        "minecraft:netherite_block",
+        "minecraft:lodestone"
     ]
 }

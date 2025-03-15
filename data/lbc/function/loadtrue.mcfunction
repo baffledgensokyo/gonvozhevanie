@@ -11,6 +11,7 @@ scoreboard objectives add y dummy
 scoreboard objectives add z dummy
 scoreboard objectives add rccd dummy
 scoreboard objectives add wind_staff_cooldown dummy
+scoreboard objectives add shock_wand_cooldown dummy
 scoreboard objectives add hell_running dummy
 scoreboard objectives add timer dummy
 scoreboard objectives add use_trident minecraft.used:minecraft.trident
