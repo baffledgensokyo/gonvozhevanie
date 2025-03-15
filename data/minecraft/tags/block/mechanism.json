@@ -4,6 +4,7 @@
         "#furnaces",
         "lightning_rod",
         "#sculk_sensors",
-        "#redstone_torch"
+        "#redstone_torch",
+        "daylight_detector"
     ]
 }

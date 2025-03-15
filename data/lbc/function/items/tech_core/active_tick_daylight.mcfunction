@@ -1,0 +1,15 @@
+execute if block ~ ~ ~ daylight_detector[power=1] if predicate {condition:"random_chance","chance":0.000125} run scoreboard players add tmp lbc.math 1
+execute if block ~ ~ ~ daylight_detector[power=2] if predicate {condition:"random_chance","chance":0.00025} run scoreboard players add tmp lbc.math 1
+execute if block ~ ~ ~ daylight_detector[power=3] if predicate {condition:"random_chance","chance":0.0005} run scoreboard players add tmp lbc.math 1
+execute if block ~ ~ ~ daylight_detector[power=4] if predicate {condition:"random_chance","chance":0.001} run scoreboard players add tmp lbc.math 1
+execute if block ~ ~ ~ daylight_detector[power=5] if predicate {condition:"random_chance","chance":0.0015} run scoreboard players add tmp lbc.math 1
+execute if block ~ ~ ~ daylight_detector[power=6] if predicate {condition:"random_chance","chance":0.002} run scoreboard players add tmp lbc.math 1
+execute if block ~ ~ ~ daylight_detector[power=7] if predicate {condition:"random_chance","chance":0.0025} run scoreboard players add tmp lbc.math 1
+execute if block ~ ~ ~ daylight_detector[power=8] if predicate {condition:"random_chance","chance":0.003} run scoreboard players add tmp lbc.math 1
+execute if block ~ ~ ~ daylight_detector[power=9] if predicate {condition:"random_chance","chance":0.004} run scoreboard players add tmp lbc.math 1
+execute if block ~ ~ ~ daylight_detector[power=10] if predicate {condition:"random_chance","chance":0.005} run scoreboard players add tmp lbc.math 1
+execute if block ~ ~ ~ daylight_detector[power=11] if predicate {condition:"random_chance","chance":0.006} run scoreboard players add tmp lbc.math 1
+execute if block ~ ~ ~ daylight_detector[power=12] if predicate {condition:"random_chance","chance":0.007} run scoreboard players add tmp lbc.math 1
+execute if block ~ ~ ~ daylight_detector[power=13] if predicate {condition:"random_chance","chance":0.008} run scoreboard players add tmp lbc.math 1
+execute if block ~ ~ ~ daylight_detector[power=14] if predicate {condition:"random_chance","chance":0.009} run scoreboard players add tmp lbc.math 1
+execute if block ~ ~ ~ daylight_detector[power=15] if predicate {condition:"random_chance","chance":0.01} run scoreboard players add tmp lbc.math 1
