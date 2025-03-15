@@ -18,6 +18,7 @@
     "minecraft:generic_kill",
     "minecraft:sonic_boom",
     "minecraft:outside_border",
-    "minecraft:generic_kill"
+    "minecraft:generic_kill",
+    "lbc:electric"
   ]
 }

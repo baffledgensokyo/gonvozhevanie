@@ -3,4 +3,3 @@ scoreboard players operation @s id = @a[tag=caster,limit=1,distance=..3] id
 tp @s ~ ~ ~ ~ ~
 tag @s remove new
 scoreboard players set @s distance 0
-say nya

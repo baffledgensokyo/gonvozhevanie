@@ -6,4 +6,4 @@ execute at @s positioned ^ ^ ^-1.5 if score @s distance matches ..149 run functi
 execute at @s positioned ^ ^ ^-1 if score @s distance matches ..149 run function lbc:items/shock_wand/check
 execute at @s positioned ^ ^ ^-.5 if score @s distance matches ..149 run function lbc:items/shock_wand/check
 
-say §afly
+playsound entity.firework_rocket.twinkle block @a ~ ~ ~ 0.1 2
