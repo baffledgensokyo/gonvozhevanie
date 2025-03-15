@@ -1,4 +1,4 @@
-scoreboard players set @s distance 151
+scoreboard players set @s distance 1510
 scoreboard players operation *temp id = @s id
 execute positioned ^ ^ ^.5 if block ~ ~ ~ lightning_rod run function lbc:items/shock_wand/lightning_rod/check
 execute as @a[predicate=lbc:same_id,limit=1] run function lbc:items/shock_wand/impact
