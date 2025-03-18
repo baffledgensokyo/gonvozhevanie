@@ -1,0 +1,2 @@
+execute unless block ~ ~ ~ skeleton_skull run function lbc:items/magnet/break
+execute if block ~ ~ ~ skeleton_skull if entity @e[type=item,distance=..50] run function lbc:items/magnet/active_tick_break

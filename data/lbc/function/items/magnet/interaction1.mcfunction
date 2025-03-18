@@ -1,0 +1,3 @@
+$execute if data entity @a[limit=1,tag=interactor,distance=..5] SelectedItem as @e[type=interaction,limit=1,distance=..5,nbt={"interaction":{"timestamp":$(tmpL)L}}] at @s positioned ~ ~.2 ~ as @e[type=item_display,tag=magnet_interaction,limit=1,distance=..0.001] run function lbc:items/magnet/filter_add
+$execute unless data entity @a[limit=1,tag=interactor,distance=..5] SelectedItem as @e[type=interaction,limit=1,distance=..5,nbt={"interaction":{"timestamp":$(tmpL)L}}] at @s positioned ~ ~.2 ~ as @e[type=item_display,tag=magnet_interaction,limit=1,distance=..0.001] run function lbc:items/magnet/filter_remove
+#say interact

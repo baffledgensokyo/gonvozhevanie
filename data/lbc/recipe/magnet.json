@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        "1R1",
+        "232",
+        "1B1"
+    ],
+    "key": {
+        "1": "minecraft:iron_block",
+        "2": "minecraft:polished_tuff",
+        "3": "minecraft:lodestone",
+        "B": "lapis_block",
+        "R": "redstone_block"
+    },
+    "result": {
+        "id": "minecraft:panda_spawn_egg",
+        "count": 1,
+        "components": {
+                                "minecraft:item_name": "\"Магнитный пылесос\"",
+                                "minecraft:lore": [
+                                    "{\"text\":\"Втягивает предметы в радиусе 50 блоков\",\"italic\":false,\"color\":\"#9effe7\"}",
+                                    "{\"text\":\"ПКМ предметом по верхней части - установить фильтр\",\"italic\":false,\"color\":\"#9effe7\"}"
+                                ],
+                                "minecraft:item_model": "minecraft:magnet",
+                                "entity_data": {
+                                    "id": "marker",
+                                    "Tags": [
+                                        "5_tick_raycast",
+                                        "magnet"
+                                    ]
+                                }
+                            }
+    }
+}
