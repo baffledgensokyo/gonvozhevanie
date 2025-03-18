@@ -17,8 +17,7 @@
                 "{\"text\":\"Имеет заряд в 81 редстоун пыль\",\"italic\":false,\"color\":\"#9effe7\"}",
                 "{\"text\":\"Используется в качестве редстоуна для меха-предметов\",\"italic\":false,\"color\":\"#9effe7\"}"
             ],
-            "minecraft:item_model": "minecraft:redstone",
-            "enchantment_glint_override": true,
+            "minecraft:item_model": "minecraft:battery",
             "custom_data": {"battery":true}
         },
         "count": 1
