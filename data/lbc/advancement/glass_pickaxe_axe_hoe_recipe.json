@@ -1,0 +1,35 @@
+{
+    "criteria": {
+      "uslovie": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "glass",
+                "amethyst_block",
+                "amethyst_shard",
+                "tinted_glass"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "uslovie"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "lbc:glass_pickaxe",
+        "lbc:tinted_glass_pickaxe",
+        "lbc:glass_axe",
+        "lbc:tinted_glass_axe",
+        "lbc:glass_hoe",
+        "lbc:tinted_glass_hoe"
+      ],
+      "experience": 5
+    }
+  }

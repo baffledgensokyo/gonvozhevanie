@@ -43,7 +43,7 @@
                 "rules": [
                     {
                         "blocks": "#mineable/shovel",
-                        "speed": 45,
+                        "speed": 75,
                         "correct_for_drops": true
                     }
                 ],
