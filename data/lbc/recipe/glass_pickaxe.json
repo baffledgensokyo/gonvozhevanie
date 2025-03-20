@@ -2,47 +2,47 @@
     "type": "minecraft:crafting_shaped",
     "category": "equipment",
     "pattern": [
-        "1",
-        "2",
-        "2"
+        "111",
+        " 2 ",
+        " 2 "
     ],
     "key": {
         "1": "#minecraft:glass",
         "2": "minecraft:stick"
     },
     "result": {
-        "id": "minecraft:wooden_shovel",
+        "id": "minecraft:wooden_pickaxe",
         "components": {
             "minecraft:attribute_modifiers": {
                 "modifiers": [
                     {
                         "type": "minecraft:attack_damage",
                         "id": "minecraft:base_attack_damage",
-                        "amount": 12,
+                        "amount": 15,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
                         "type": "minecraft:attack_speed",
                         "id": "minecraft:base_attack_speed",
-                        "amount": -1.4,
+                        "amount": -1.5,
                         "operation": "add_value",
                         "slot": "mainhand"
                     }
                 ],
                 "show_in_tooltip": true
             },
-            "minecraft:item_name": "\"Стеклянная лопата\"",
+            "minecraft:item_name": "\"Стеклянная кирка\"",
             "minecraft:lore": [
-                "{\"text\":\"Остроты не занимать, к тому же очень лёгкая!\",\"italic\":false,\"color\":\"#9effe7\"}",
-                "{\"text\":\"Вовсе не годится для раскопок из-за свой хрупкости.\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"Эффективности не занимать, к тому же очень лёгкая!\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"Вовсе не годится для пользования из-за свой хрупкости.\",\"italic\":false,\"color\":\"#9effe7\"}",
                 "{\"text\":\"Совершенно бесполезно зачаровывать...\",\"italic\":false,\"color\":\"#9effe7\"}"
             ],
-            "minecraft:item_model":"minecraft:glass_shovel",
+            "minecraft:item_model":"minecraft:glass_pickaxe",
             "minecraft:tool": {
                 "rules": [
                     {
-                        "blocks": "#mineable/shovel",
+                        "blocks": "#mineable/pickaxe",
                         "speed": 100,
                         "correct_for_drops": true
                     }

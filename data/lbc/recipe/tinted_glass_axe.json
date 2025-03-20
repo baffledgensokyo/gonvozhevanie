@@ -2,58 +2,60 @@
     "type": "minecraft:crafting_shaped",
     "category": "equipment",
     "pattern": [
-        "1",
-        "2",
-        "2"
+        "11",
+        "12",
+        " 2"
     ],
     "key": {
-        "1": "#minecraft:glass",
-        "2": "minecraft:stick"
+        "1": "minecraft:tinted_glass",
+        "2": "minecraft:amethyst_shard"
     },
     "result": {
-        "id": "minecraft:wooden_shovel",
+        "id": "minecraft:wooden_axe",
         "components": {
             "minecraft:attribute_modifiers": {
                 "modifiers": [
                     {
                         "type": "minecraft:attack_damage",
                         "id": "minecraft:base_attack_damage",
-                        "amount": 12,
+                        "amount": 20,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
                         "type": "minecraft:attack_speed",
                         "id": "minecraft:base_attack_speed",
-                        "amount": -1.4,
+                        "amount": -2.8,
                         "operation": "add_value",
                         "slot": "mainhand"
                     }
                 ],
                 "show_in_tooltip": true
             },
-            "minecraft:item_name": "\"Стеклянная лопата\"",
+            "minecraft:item_name": "\"Топор из аметистового стекла\"",
             "minecraft:lore": [
-                "{\"text\":\"Остроты не занимать, к тому же очень лёгкая!\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"Почти такой-же лёгкий и острый, как стеклянный!\",\"italic\":false,\"color\":\"#9effe7\"}",
                 "{\"text\":\"Вовсе не годится для раскопок из-за свой хрупкости.\",\"italic\":false,\"color\":\"#9effe7\"}",
-                "{\"text\":\"Совершенно бесполезно зачаровывать...\",\"italic\":false,\"color\":\"#9effe7\"}"
+                "{\"text\":\"Прекрасно зачаровывается!\",\"italic\":false,\"color\":\"#9effe7\"}"
             ],
-            "minecraft:item_model":"minecraft:glass_shovel",
+            "minecraft:item_model":"minecraft:tinted_glass_axe",
             "minecraft:tool": {
                 "rules": [
                     {
-                        "blocks": "#mineable/shovel",
-                        "speed": 100,
+                        "blocks": "#mineable/axe",
+                        "speed": 75,
                         "correct_for_drops": true
                     }
                 ],
                 "default_mining_speed": 1,
                 "damage_per_block": 1
             },
-            "max_damage": 1,
+            "max_damage": 2,
             "damage": 0,
             "max_stack_size": 1,
-            "!enchantable": {}
+            "enchantable": {
+                "value": 100
+            }
         },
         "count": 1
     }
