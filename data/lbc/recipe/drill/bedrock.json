@@ -83,8 +83,7 @@
             "enchantable": {
                 "value": 1
             },
-            "item_model": "minecraft:stone_axe",
-            "enchantment_glint_override": true,
+            "item_model": "minecraft:bedrock_drill",
             "custom_data": {
                 "bedrock_drill": true
             },

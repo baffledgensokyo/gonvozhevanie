@@ -100,8 +100,7 @@
             "enchantable": {
                 "value": 14
             },
-            "item_model": "minecraft:golden_axe",
-            "enchantment_glint_override": true,
+            "item_model": "minecraft:golden_drill",
             "custom_data": {
                 "golden_drill": true
             },

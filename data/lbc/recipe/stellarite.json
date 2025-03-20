@@ -20,6 +20,7 @@
                 "[{\"text\":\"делает его полностью неразрушимым.\",\"italic\":false,\"color\":\"#9effe7\"}]"
             ],
             "minecraft:item_model": "minecraft:bedrock",
+            "rarity":"epic",
             "enchantment_glint_override": true,
             "stored_enchantments": {
                 "lbc:stellarite": 1

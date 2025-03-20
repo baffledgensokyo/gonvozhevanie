@@ -11,6 +11,7 @@
         "2": "minecraft:stick"
     },
     "result": {
+        
         "id": "minecraft:repeating_command_block",
         "components": {
             "minecraft:custom_data": {
@@ -20,6 +21,7 @@
             "minecraft:item_name": "\"Инструмент улучшения спаунера\"",
             "minecraft:item_model":"spawner_upgrade_tool",
             "consumable": {"consume_seconds": 100000000000000},
+            "rarity":"rare",
             "minecraft:lore": [
               "{\"text\":\"ПКМ по спавнеру улучшает его, расходуя ресурсы\",\"italic\":false,\"color\":\"#9effe7\"}",
               "{\"text\":\"Shift + ПКМ переключает расходуемый ресурс\",\"italic\":false,\"color\":\"#9effe7\"}",

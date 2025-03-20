@@ -14,8 +14,7 @@
                                 "minecraft:lore": [
                                     "{\"text\":\"Разместите на воронку, чтобы та работала мгновенно.\",\"italic\":false,\"color\":\"#9effe7\"}"
                                 ],
-                                "minecraft:item_model": "minecraft:hopper",
-                                "enchantment_glint_override": true,
+                                "minecraft:item_model": "minecraft:hopper_enhancer_item",
                                 "entity_data": {
                                     "id": "marker",
                                     "Tags": [

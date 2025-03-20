@@ -89,8 +89,7 @@
             "enchantable": {
                 "value": 10
             },
-            "item_model": "minecraft:netherite_axe",
-            "enchantment_glint_override": true,
+            "item_model": "minecraft:hell_drill",
             "custom_data": {
                 "hell_drill": true
             },
