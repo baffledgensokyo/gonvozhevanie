@@ -15,7 +15,7 @@
     },
     "result": {
         "id": "minecraft:panda_spawn_egg",
-        "count": 1,
+        "count": 8,
         "components": {
                                 "minecraft:item_name": "\"Магнитный пылесос\"",
                                 "minecraft:lore": [

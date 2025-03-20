@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        " 1 ",
+        " 2 ",
+        "333"
+    ],
+    "key": {
+        "1": "minecraft:ender_pearl",
+        "2": "minecraft:respawn_anchor",
+        "3": "obsidian"
+    },
+    "result": {
+        "id": "minecraft:repeating_command_block",
+        "components": {
+            "custom_data":{"sethomer":true},
+            "minecraft:item_name": "\"Якорь возрождения (буквально)\"",
+            "minecraft:lore": [
+                "{\"text\":\"Перемещает игрока на его точку возрождения\",\"italic\":false,\"color\":\"#9effe7\"}"    
+            ],
+            "minecraft:item_model":"minecraft:sethomer",
+            "max_damage": 1,
+            "damage": 0,
+            "max_stack_size": 1,
+            "!enchantable": {},
+            "consumable": {"consume_seconds": 11239871892}
+        },
+        "count": 1
+    }
+}
