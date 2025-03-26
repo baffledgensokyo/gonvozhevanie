@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "  1",
+        " 2 ",
+        "2  "
+    ],
+    "key": {
+        "1": "minecraft:amethyst_shard",
+        "2": "minecraft:stick"
+    },
+    "result": {
+        "id": "minecraft:repeating_command_block",
+        "components": {
+            "minecraft:item_name": "\"Аметистовый жезл\"",
+            "minecraft:lore": [
+                "{\"text\":\"ПКМ: выстреливает магическим зарядом\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"Снаряд наносит 4 урона магией\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"Самый простой магический жезл\",\"italic\":false,\"color\":\"#9effe7\"}"
+            ],
+            "max_damage": 64,
+            "damage": 0,
+            "max_stack_size":1,
+
+            "minecraft:item_model": "minecraft:amethyst_wand",
+            "custom_data": {"amethyst_wand":true},
+            "consumable": {"consume_seconds":100000000000}
+        },
+        "count": 1
+    }
+}

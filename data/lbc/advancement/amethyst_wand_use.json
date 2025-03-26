@@ -1,0 +1,28 @@
+{
+    "criteria": {
+      "uslovie": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "amethyst_wand": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "uslovie"
+      ]
+    ],
+    "rewards": {
+      "function": "lbc:items/amethyst_wand/use"
+    }
+  }
