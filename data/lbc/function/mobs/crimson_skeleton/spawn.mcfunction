@@ -1,0 +1,3 @@
+summon minecraft:skeleton ~ ~ ~ {attributes:[{id:"max_health",base:40.0d},{id:"scale",base:1.2}],Health:40.0f,Tags:["crimson_skeleton"],ArmorItems:[{},{},{id:"stick",components:{equippable:{slot:"chest",asset_id:"crimson_wither_skeleton"}},count:1},{id:"stick",count:1,components:{item_model:"crimson_skeleton_head"}}],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],HandItems:[{},{}],DeathLootTable:"minecraft:entities/crimson_skeleton"}
+tp @s 0.0 0.0 0.0
+data modify entity @s Health set value 0.0f
