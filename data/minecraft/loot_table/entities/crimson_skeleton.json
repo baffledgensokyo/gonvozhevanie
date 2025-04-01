@@ -68,40 +68,16 @@
                     "type": "item",
                     "name": "repeating_command_block",
                     "functions": [
-                        {
+                        {   
                             "function": "set_components",
                             "components": {
+                                "custom_data":{"crimson_heart":true},
                                 "item_model": "crimson_heart",
                                 "item_name": "\"Багряное сердце\"",
                                 "rarity": "uncommon",
                                 "lore": [
-                                    "{\"text\":\"Ингредиент магического жезла\",\"italic\":false,\"color\":\"#9effe7\"}",
-                                    "{\"text\":\"Возьмите в две руки этот предмет и зачарованный стержень\",\"italic\":false,\"color\":\"#9effe7\"}",
-                                    "{\"text\":\"и нажмите ПКМ, чтобы создать магический жезл\",\"italic\":false,\"color\":\"#9effe7\"}"
-                                ]
-                            }
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "repeating_command_block",
-                    "functions": [
-                        {
-                            "function": "set_components",
-                            "components": {
-                                "item_model": "crimson_heart",
-                                "item_name": "\"Багряное сердце\"",
-                                "rarity": "uncommon",
-                                "lore": [
-                                    "{\"text\":\"Ингредиент магического жезла\",\"italic\":false,\"color\":\"#9effe7\"}",
-                                    "{\"text\":\"Возьмите в две руки этот предмет и зачарованный стержень\",\"italic\":false,\"color\":\"#9effe7\"}",
+                                    "{\"text\":\"• Ингредиент магического жезла\",\"italic\":false,\"color\":\"light_purple\"}",
+                                    "{\"text\":\"Возьмите в две руки этот предмет и заколдованную палочку\",\"italic\":false,\"color\":\"#9effe7\"}",
                                     "{\"text\":\"и нажмите ПКМ, чтобы создать магический жезл\",\"italic\":false,\"color\":\"#9effe7\"}"
                                 ]
                             }

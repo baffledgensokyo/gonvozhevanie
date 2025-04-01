@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:repeating_command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "\"Жезл крови\"",
+                                "minecraft:lore": [
+                                    "{\"text\":\"ПКМ: высасывает жизненную силу у ближайших 10 целей в поле зрения\",\"italic\":false,\"color\":\"#9effe7\"}"
+                                ],
+                                "max_stack_size": 1,
+                                "item_model": "minecraft:blood_wand",
+                                "rarity": "uncommon",
+                                "max_damage":1000,
+                                "damage":0,
+                                "custom_data": {
+                                    "blood_wand": true
+                                },
+                                "consumable": {
+                                    "consume_seconds": 100000000000000
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

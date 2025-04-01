@@ -91,7 +91,8 @@
             },
             "item_model": "minecraft:hell_drill",
             "custom_data": {
-                "hell_drill": true
+                "hell_drill": true,
+                "autosmelt": true
             },
             "consumable": {"consume_seconds": 100000000000000}
         },

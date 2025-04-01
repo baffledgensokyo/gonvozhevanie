@@ -1,0 +1,25 @@
+{
+  "criteria": {
+      "uslovie": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+              "items": [
+                  {
+                      "items": "#arcane_ingredients"
+                  }
+              ]
+          }
+      }
+  },
+  "requirements": [
+      [
+          "uslovie"
+      ]
+  ],
+  "rewards": {
+      "recipes": [
+          "lbc:enchanted_rod"
+      ],
+      "experience": 5
+  }
+}

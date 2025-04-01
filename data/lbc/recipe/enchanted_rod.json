@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        " 2 ",
+        "314",
+        " 5 "
+    ],
+    "key": {
+        "1": "stick",
+        "2": "experience_bottle",
+        "3": "lapis_lazuli",
+        "4": "amethyst_shard",
+        "5": "#arcane_ingredients"
+    },
+    "result": {
+        "id": "minecraft:repeating_command_block",
+        "components": {
+            
+            "minecraft:item_name": "\"Заколдованная палочка\"",
+            "minecraft:lore": [
+                "{\"text\":\"• Ингредиент магического жезла\",\"italic\":false,\"color\":\"light_purple\"}",
+                "{\"text\":\"Возьмите в две руки этот предмет и навершие жезла\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"и нажмите ПКМ, чтобы создать магический жезл\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"\"}",
+                "{\"text\":\"Эта палочка была полностью окутана магическими штуками\",\"italic\":false,\"color\":\"dark_gray\"}",
+                "{\"text\":\"и, кажется, теперь может пропускать потоки маны и принимать\",\"italic\":false,\"color\":\"dark_gray\"}",
+                "{\"text\":\"любую форму в зависимости от приделанного навершия жезла.\",\"italic\":false,\"color\":\"dark_gray\"}"
+            ],
+            
+            "max_stack_size": 1,
+            "item_model": "minecraft:enchanted_rod",
+            "rarity":"uncommon",
+            "custom_data": {
+                "enchanted_rod": true
+            },
+            "consumable": {"consume_seconds": 100000000000000}
+        },
+        "count": 1
+    }
+}

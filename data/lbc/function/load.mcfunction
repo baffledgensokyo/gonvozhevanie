@@ -10,6 +10,7 @@ scoreboard players set 20 lbc.math 20
 scoreboard players set 64 lbc.math 64
 scoreboard players set 99 lbc.math 99
 scoreboard players set 1000 lbc.math 1000
+scoreboard players set 1601 lbc.math 1601
 scoreboard players set 2001 lbc.math 2001
 function lbc:tick_1s
 function lbc:tick_10s

@@ -13,7 +13,10 @@
                                 "minecraft:item_name": "\"Магнитный пылесос\"",
                                 "minecraft:lore": [
                                     "{\"text\":\"Втягивает предметы в радиусе 50 блоков\",\"italic\":false,\"color\":\"#9effe7\"}",
-                                    "{\"text\":\"ПКМ предметом по верхней части - установить фильтр\",\"italic\":false,\"color\":\"#9effe7\"}"
+                                    "{\"text\":\"ПКМ предметом по верхней части - установить фильтр\",\"italic\":false,\"color\":\"#9effe7\"}",
+                                    "{\"text\":\"ПКМ пустой рукой по верхней части - запустить без фильтра\",\"italic\":false,\"color\":\"#9effe7\"}",
+                                    "{\"text\":\"Также отключается подачей редстоун-сигнала\",\"italic\":false,\"color\":\"#9effe7\"}",
+                                    "{\"text\":\"§c!!! §6Неактивен до установки фильтра!\",\"italic\":false,\"color\":\"gold\"}"
                                 ],
                                 "minecraft:item_model": "minecraft:magnet",
                                 "entity_data": {
