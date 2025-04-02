@@ -1,2 +1,2 @@
-execute unless block ~ ~ ~ chiseled_copper run function lbc:items/tech_core/break
-execute if block ~ ~ ~ chiseled_copper align xyz positioned ~.5 ~.5 ~.5 run function lbc:items/tech_core/active_tick_work
+execute unless block ~ ~ ~ waxed_chiseled_copper run function lbc:items/tech_core/break
+execute if block ~ ~ ~ waxed_chiseled_copper align xyz positioned ~.5 ~.5 ~.5 run function lbc:items/tech_core/active_tick_work

@@ -32,11 +32,6 @@
                 "id": "item_display",
                 "Rotation":[0.0,0.0],
                 "brightness":{"sky":15,"block":15},
-                "item":{
-                    "id":"chiseled_copper",
-                    "count":1,
-                    "components": {"item_model":"tech_core"}
-                },
                 "Tags": [
                     "tick_raycast",
                     "tech_core",

@@ -19,6 +19,7 @@
     "minecraft:sonic_boom",
     "minecraft:outside_border",
     "minecraft:generic_kill",
-    "lbc:electric"
+    "lbc:electric",
+    "lbc:blood_steal"
   ]
 }
