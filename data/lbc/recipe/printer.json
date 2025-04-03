@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        "141",
+        "232",
+        "121"
+    ],
+    "key": {
+        "1": "minecraft:iron_block",
+        "2": "minecraft:quartz_block",
+        "3": "minecraft:redstone",
+        "4": "minecraft:ink_sac"
+    },
+    "result": {
+        "id": "minecraft:panda_spawn_egg",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": "\"Принтер\"",
+            "minecraft:lore": [
+                "{\"text\":\"Блок, можно установить\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"ПКМ бумагой с красителем в левой руке напечатает купюру\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"Купюры обладают уникальной маркировкой,\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"привязанной к нику напечатавшего игрока.\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"Да здравствует капитализм!\",\"italic\":false,\"color\":\"gold\"}"
+            ],
+            "minecraft:item_model": "minecraft:iron_block",
+            "entity_data": {
+                "id": "marker",
+                "Tags": [
+                    "5_tick_raycast",
+                    "printer"
+                ]
+            }
+        }
+    }
+}

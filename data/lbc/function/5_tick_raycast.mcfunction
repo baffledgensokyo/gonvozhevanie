@@ -7,4 +7,5 @@ execute if entity @s[tag=turret_arrow] if entity @e[type=#mobs,distance=..30] ru
 execute if entity @s[tag=turret_railgun] run function lbc:items/turrets/railgun_turret_pre
 execute if entity @s[tag=mecha_part,tag=!tech_core] run function lbc:items/tech_core/tick_5t
 execute if entity @s[tag=hopper_enhancer,tag=!tech_core] run function lbc:items/hopper_enhancer/tick_5t
+execute if entity @s[tag=printer] run function lbc:items/printer/tick
 

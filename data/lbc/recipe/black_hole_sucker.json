@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "111",
+        "121",
+        "111"
+    ],
+    "key": {
+        "1": "minecraft:nether_star",
+        "2": "minecraft:barrier"
+    },
+    "result": {
+        "id": "minecraft:repeating_command_block",
+        "components": {
+            "minecraft:item_name": "\"Всасыватель чёрных дыр\"",
+            "minecraft:lore": [
+                "{\"text\":\"Задувает чёрные дыры без последствий.\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"Вытягивает из дыры опыт. (ПКМ)\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"Для использования киньте в чёрную дыру.\",\"italic\":false,\"color\":\"#9effe7\"}"
+            ],
+            "minecraft:item_model": "minecraft:nether_star",
+            "custom_data": {"black_hole_sucker":true},
+            "consumable": {"consume_seconds":100000000000}
+        },
+        "count": 1
+    }
+}
