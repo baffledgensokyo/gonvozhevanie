@@ -17,6 +17,7 @@ scoreboard objectives add hell_running dummy
 scoreboard objectives add timer dummy
 scoreboard objectives add use_trident minecraft.used:minecraft.trident
 scoreboard objectives add trig_transfer trigger
+scoreboard objectives add fall minecraft.custom:minecraft.fall_one_cm
 team add spiders
 team modify spiders friendlyFire false
 team add red

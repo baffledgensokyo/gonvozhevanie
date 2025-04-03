@@ -1,25 +1,28 @@
 {
-    "criteria": {
-      "uslovie": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
+  "criteria": {
+    "uslovie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
             "items": [
-                {
-                    "items": "paper"
-                }
+              "paper",
+              "iron_ingot"
             ]
-        }
+          }
+        ]
+      }
     }
-    },
-    "requirements": [
-      [
-        "uslovie"
-      ]
+  },
+  "requirements": [
+    [
+      "uslovie"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "lbc:printer"
     ],
-    "rewards": {
-      "recipes": [
-        "lbc:printer"
-      ],
-      "experience": 5
-    }
+    "experience": 5
   }
+}

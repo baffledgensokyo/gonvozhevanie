@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:fall_from_height",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "feet": {
+                            "predicates": {
+                                "minecraft:custom_data": "{resin_boots:true}"
+                            }
+                        }
+                    }
+                },
+                "distance": {
+                    "y": {
+                        "min": 10
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "requirement"
+        ]
+    ],
+    "rewards": {
+        "function": "lbc:items/resin_items/fall"
+    }
+}

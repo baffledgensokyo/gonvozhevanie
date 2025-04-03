@@ -1,0 +1,65 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "111",
+        " 2 ",
+        " 2 "
+    ],
+    "key": {
+        "1": "minecraft:resin_brick",
+        "2": "minecraft:stick"
+    },
+    "result": {
+        "id": "minecraft:wooden_pickaxe",
+        "components": {
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:attack_damage",
+                        "id": "minecraft:base_attack_damage",
+                        "amount": -0.99,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "minecraft:attack_speed",
+                        "id": "minecraft:base_attack_speed",
+                        "amount": -2,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "minecraft:attack_knockback",
+                        "id": "minecraft:base_attack_knockback",
+                        "amount": 6,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    }
+                ],
+                "show_in_tooltip": true
+            },
+            "minecraft:item_name": "\"Резиновая кирка\"",
+            "minecraft:lore": [
+                "{\"text\":\"Бъёт сразу в 2 места\",\"italic\":false,\"color\":\"#9effe7\"}"
+            ],
+            "minecraft:item_model":"minecraft:wooden_pickaxe",
+            "minecraft:tool": {
+                "rules": [],
+                "default_mining_speed": -1000,
+                "damage_per_block": 1
+            },
+            "max_damage": 255,
+            "damage": 0,
+            "max_stack_size": 1,
+            "enchantable": {
+                "value": 7
+            },
+            "custom_data": {
+                "resin": true,
+                "resin_pickaxe": true
+            }
+        },
+        "count": 1
+    }
+}

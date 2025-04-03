@@ -1,0 +1,57 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "111",
+        "1 1",
+        "1 1"
+    ],
+    "key": {
+        "1": "minecraft:resin_brick"
+    },
+    "result": {
+        "id": "minecraft:leather_leggings",
+        "components": {
+            "minecraft:item_name": "\"Резиновые штаны\"",
+            "minecraft:lore": [
+                "[{\"text\":\"В них жарко.\",\"italic\":false,\"color\":\"#9effe7\"}]",
+                "[{\"text\":\"Позволяют отскакивать от земли\",\"italic\":false,\"color\":\"#9effe7\"}]"
+            ],
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:armor",
+                        "id": "gdghkjhgfjghjghjg9",
+                        "amount": 5,
+                        "operation": "add_value",
+                        "slot": "legs"
+                    },
+                    {
+                        "type": "minecraft:burning_time",
+                        "id": "gdhtfhghgdhfghgfhkhjjy",
+                        "amount": 0.5,
+                        "operation": "add_multiplied_base",
+                        "slot": "legs"
+                    },
+                    {
+                        "type": "minecraft:jump_strength",
+                        "id": "gdh5687907807885yggfhghkhjjy",
+                        "amount": 0.5,
+                        "operation": "add_value",
+                        "slot": "legs"
+                    }
+                ],
+                "show_in_tooltip": true
+            },
+            "minecraft:max_damage": 312,
+            "minecraft:equippable": {
+                "slot": "legs",
+                "asset_id": "minecraft:resin_armor"
+            },
+            "custom_data": {
+                "resin_leggings": true
+            }
+        },
+        "count": 1
+    }
+}

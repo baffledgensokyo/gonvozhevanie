@@ -24,7 +24,7 @@
                 "{\"text\":\"привязанной к нику напечатавшего игрока.\",\"italic\":false,\"color\":\"#9effe7\"}",
                 "{\"text\":\"Да здравствует капитализм!\",\"italic\":false,\"color\":\"gold\"}"
             ],
-            "minecraft:item_model": "minecraft:iron_block",
+            "minecraft:item_model": "minecraft:printer",
             "entity_data": {
                 "id": "marker",
                 "Tags": [

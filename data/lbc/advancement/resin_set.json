@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "uslovie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "resin_clump",
+              "resin_brick",
+              "resin_bricks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "uslovie"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "lbc:resin_set/resin_helmet",
+      "lbc:resin_set/resin_chestplate",
+      "lbc:resin_set/resin_leggings",
+      "lbc:resin_set/resin_boots",
+      "lbc:resin_set/resin_sword",
+      "lbc:resin_set/resin_axe",
+      "lbc:resin_set/resin_pickaxe",
+      "lbc:resin_set/resin_hoe",
+      "lbc:resin_set/resin_shovel",
+      "lbc:resin_set/plug"
+    ],
+    "experience": 5
+  }
+}

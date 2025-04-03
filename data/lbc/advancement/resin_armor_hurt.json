@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "chest": {
+                            "predicates": {
+                                "minecraft:custom_data": "{resin_chestplate:true}"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "requirement"
+        ]
+    ],
+    "rewards": {
+        "function": "lbc:items/resin_items/hurt"
+    }
+}

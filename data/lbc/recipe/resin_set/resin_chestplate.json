@@ -1,0 +1,50 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "1 1",
+        "111",
+        "111"
+    ],
+    "key": {
+        "1": "minecraft:resin_brick"
+    },
+    "result": {
+        "id": "minecraft:leather_chestplate",
+        "components": {
+            "minecraft:item_name": "\"Резиновый нагрудник\"",
+            "minecraft:lore": [
+                "[{\"text\":\"В нём жарко.\",\"italic\":false,\"color\":\"#9effe7\"}]",
+                "[{\"text\":\"Отбрасывает обидчиков\",\"italic\":false,\"color\":\"#9effe7\"}]"
+            ],
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:armor",
+                        "id": "9djg9",
+                        "amount": 6,
+                        "operation": "add_value",
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "minecraft:burning_time",
+                        "id": "gdhtgdty",
+                        "amount": 0.5,
+                        "operation": "add_multiplied_base",
+                        "slot": "chest"
+                    }
+                ],
+                "show_in_tooltip": true
+            },
+            "minecraft:max_damage": 312,
+            "minecraft:equippable": {
+                "slot": "chest",
+                "asset_id": "minecraft:resin_armor"
+            },
+            "custom_data": {
+                "resin_chestplate": true
+            }
+        },
+        "count": 1
+    }
+}

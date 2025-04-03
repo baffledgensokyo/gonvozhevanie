@@ -10,3 +10,5 @@ execute if entity @s[advancements={lbc:echo_sword=true}] run function lbc:items/
 
 execute if score @s use_trident matches 1.. run function lbc:items/trident/select
 execute if score @s trig_transfer matches 1.. run function lbc:transfer/run_trigger
+scoreboard players set @s[predicate=lbc:on_ground] fall 0
+attribute @s[predicate=lbc:on_ground] gravity modifier remove fall_resin

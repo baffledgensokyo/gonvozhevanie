@@ -20,6 +20,25 @@ execute if items entity @s weapon.offhand minecraft:green_dye run data modify st
 execute if items entity @s weapon.offhand minecraft:magenta_dye run data modify storage lbc.math color set value "#E022BA"
 
 
+
+execute if items entity @s weapon.offhand minecraft:red_dye run data modify storage lbc.math overlay set value "red"
+execute if items entity @s weapon.offhand minecraft:white_dye run data modify storage lbc.math overlay set value "white"
+execute if items entity @s weapon.offhand minecraft:blue_dye run data modify storage lbc.math overlay set value "blue"
+execute if items entity @s weapon.offhand minecraft:yellow_dye run data modify storage lbc.math overlay set value "yellow"
+execute if items entity @s weapon.offhand minecraft:orange_dye run data modify storage lbc.math overlay set value "gold"
+execute if items entity @s weapon.offhand minecraft:light_blue_dye run data modify storage lbc.math overlay set value "aqua"
+execute if items entity @s weapon.offhand minecraft:purple_dye run data modify storage lbc.math overlay set value "dark_purple"
+execute if items entity @s weapon.offhand minecraft:gray_dye run data modify storage lbc.math overlay set value "dark_gray"
+execute if items entity @s weapon.offhand minecraft:light_gray_dye run data modify storage lbc.math overlay set value "gray"
+execute if items entity @s weapon.offhand minecraft:lime_dye run data modify storage lbc.math overlay set value "green"
+execute if items entity @s weapon.offhand minecraft:pink_dye run data modify storage lbc.math overlay set value "light_purple"
+execute if items entity @s weapon.offhand minecraft:cyan_dye run data modify storage lbc.math overlay set value "dark_aqua"
+execute if items entity @s weapon.offhand minecraft:black_dye run data modify storage lbc.math overlay set value "black"
+execute if items entity @s weapon.offhand minecraft:brown_dye run data modify storage lbc.math overlay set value "brown"
+execute if items entity @s weapon.offhand minecraft:green_dye run data modify storage lbc.math overlay set value "dark_green"
+execute if items entity @s weapon.offhand minecraft:magenta_dye run data modify storage lbc.math overlay set value "magenta"
+
+
 execute if items entity @s weapon.offhand minecraft:red_dye run data modify storage lbc.math type set value "Драконья "
 execute if items entity @s weapon.offhand minecraft:white_dye run data modify storage lbc.math type set value "Чистая "
 execute if items entity @s weapon.offhand minecraft:blue_dye run data modify storage lbc.math type set value "Левиафано-"
