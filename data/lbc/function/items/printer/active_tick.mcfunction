@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ quartz_slab run function lbc:items/printer/break

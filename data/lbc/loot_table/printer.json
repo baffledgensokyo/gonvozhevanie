@@ -1,0 +1,36 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:panda_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "\"Принтер\"",
+                                "minecraft:lore": [
+                                    "{\"text\":\"Блок, можно установить\",\"italic\":false,\"color\":\"#9effe7\"}",
+                                    "{\"text\":\"ПКМ бумагой с красителем в левой руке напечатает купюру\",\"italic\":false,\"color\":\"#9effe7\"}",
+                                    "{\"text\":\"Купюры обладают уникальной маркировкой,\",\"italic\":false,\"color\":\"#9effe7\"}",
+                                    "{\"text\":\"привязанной к нику напечатавшего игрока.\",\"italic\":false,\"color\":\"#9effe7\"}",
+                                    "{\"text\":\"Да здравствует капитализм!\",\"italic\":false,\"color\":\"gold\"}"
+                                ],
+                                "minecraft:item_model": "minecraft:iron_block",
+                                "entity_data": {
+                                    "id": "marker",
+                                    "Tags": [
+                                        "5_tick_raycast",
+                                        "printer"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

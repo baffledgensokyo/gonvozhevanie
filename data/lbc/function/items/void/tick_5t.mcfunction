@@ -1,6 +1,6 @@
 execute unless entity @s[tag=active] run function lbc:items/void/spawn
 tag @s add current
-
+scoreboard players set hole_must_die lbc.math 0
 
 execute store result score xc lbc.math run data get entity @s Pos[0] 71
 execute store result score y lbc.math run data get entity @s Pos[1]
@@ -18,8 +18,10 @@ scoreboard players add tmp lbc.math 1000
 scoreboard players add tmpd lbc.math 1
 execute store result storage lbc.math t15 double 0.00086605 run scoreboard players get tmp lbc.math
 execute store result storage lbc.math t1 double 0.001 run data get entity @s data.consumed_items
+execute store result storage lbc.math xp int 1 run data get entity @s data.consumed_items
 execute store result storage lbc.math t05 double 0.0005 run data get entity @s data.consumed_items
 function lbc:items/void/tick_5t_storaged with storage lbc.math
+execute if score hole_must_die lbc.math matches 1 run function lbc:items/void/sucked with storage lbc.math
 
 execute unless dimension minecraft:overworld run function lbc:items/void/wrong_dimension
 

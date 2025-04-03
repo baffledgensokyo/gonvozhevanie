@@ -1,0 +1,27 @@
+{
+    "criteria": {
+      "uslovie": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "nether_star"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "uslovie"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "lbc:black_hole_sucker"
+      ],
+      "experience": 5
+    }
+  }
