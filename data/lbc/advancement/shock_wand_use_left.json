@@ -1,0 +1,28 @@
+{
+    "criteria": {
+      "uslovie": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "offhand": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "shock_wand": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "uslovie"
+      ]
+    ],
+    "rewards": {
+      "function": "lbc:items/shock_wand/use_left"
+    }
+  }
