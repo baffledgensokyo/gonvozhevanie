@@ -1,0 +1,1 @@
+$data modify storage lbc.math lore_contents append value '$(translate_prefix)$(temp)$(translate_suffix)'

@@ -1,0 +1,30 @@
+[
+  
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:item_model": "packager_full"
+    }
+  },
+  {
+    "function": "set_custom_data",
+    "tag": {
+      "stored": true
+    }
+  },
+  {
+    "function": "minecraft:copy_custom_data",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "lbc.math"
+    },
+    "ops": [
+      {
+        "source": "stored_items",
+        "target": "stored_items",
+        "op": "replace"
+      }
+    ],
+    "conditions": []
+  }
+]

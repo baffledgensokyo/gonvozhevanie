@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "uslovie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "copper_ingot",
+              "iron_block",
+              "quartz"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "uslovie"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "lbc:packager"
+    ],
+    "experience": 5
+  }
+}

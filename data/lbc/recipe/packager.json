@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        "131",
+        "2 2",
+        "151"
+    ],
+    "key": {
+        "1": "minecraft:copper_ingot",
+        "2": "minecraft:iron_block",
+        "3": "minecraft:quartz",
+        "5": "polished_deepslate"
+    },
+    "result": {
+        "id": "minecraft:repeating_command_block",
+        "count": 1,
+        "components": {
+                                "minecraft:item_name": "\"Упаковщик\"",
+                                "minecraft:lore": [
+                                    "{\"text\":\"Shift + ПКМ: Упаковывает содержимое сундука или другого контейнера\",\"italic\":false,\"color\":\"#9effe7\"}",
+                                    "{\"text\":\"Shift + ПКМ по ПУСТОМУ контейнеру, чтобы сложить в него содержимое\",\"italic\":false,\"color\":\"#9effe7\"}",
+                                    "{\"text\":\"Нельзя упаковать контейнер, если он содержит другие упаковщики\",\"italic\":false,\"color\":\"#9effe7\"}"
+
+                                ],
+                                "minecraft:item_model": "minecraft:packager_empty",
+                                "rarity": "uncommon",
+                                "custom_data":{
+                                    "packager": true,
+                                    "stored_items": {},
+                                    "stored": false
+                                },
+                                "consumable": {"consume_seconds": 100000000000},
+                                "max_stack_size": 1
+                                
+                            }
+    }
+}

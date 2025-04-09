@@ -4,3 +4,5 @@ advancement revoke @a only lbc:spawner_upgrader
 advancement revoke @a only lbc:candle_killer_use
 advancement revoke @a only lbc:item_tinker_use
 advancement revoke @a only lbc:sethomer_use
+advancement revoke @a only lbc:packager_use
+advancement revoke @a only lbc:packager_use_left
