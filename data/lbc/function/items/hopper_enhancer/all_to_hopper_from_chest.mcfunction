@@ -1,0 +1,11 @@
+data modify block ~ ~ ~ Items[{Slot:0b}] set from block ~ ~1 ~ Items[0]
+data modify block ~ ~ ~ Items[{Slot:1b}] set from block ~ ~1 ~ Items[1]
+data modify block ~ ~ ~ Items[{Slot:2b}] set from block ~ ~1 ~ Items[2]
+data modify block ~ ~ ~ Items[{Slot:3b}] set from block ~ ~1 ~ Items[3]
+data modify block ~ ~ ~ Items[{Slot:4b}] set from block ~ ~1 ~ Items[4]
+data remove block ~ ~1 ~ Items[4]
+data remove block ~ ~1 ~ Items[3]
+data remove block ~ ~1 ~ Items[2]
+data remove block ~ ~1 ~ Items[1]
+data remove block ~ ~1 ~ Items[0]
+scoreboard players set done lbc.math 1

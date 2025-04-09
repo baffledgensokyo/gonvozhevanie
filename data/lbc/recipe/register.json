@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "323",
+        "212",
+        "323"
+    ],
+    "key": {
+        "1": "minecraft:name_tag",
+        "2": "minecraft:redstone",
+        "3": "minecraft:iron_ingot"
+    },
+    "result": {
+        "id": "minecraft:repeating_command_block",
+        "components": {
+            "custom_data": {
+                "register": true
+            },
+            "minecraft:item_name": "\"Регистратор\"",
+            "minecraft:lore": [
+                "{\"text\":\"Переименовав его в 'значение' и нажав ПКМ по сущности,\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"наделяет сущность тэгом '+значение', который позже можно использовать,\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"например, как тэг в турелях с фильтром ИМЕНИ, назвав предмет фильтра '+значение'\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"Присесть + ПКМ наложит тэг на вас. Повторное использование убирает тэг.\",\"italic\":false,\"color\":\"#9effe7\"}",
+                "{\"text\":\"!Тэг может быть составлен только из букв английского алфавита!\",\"italic\":false,\"color\":\"#9effe7\"}"
+            ],
+            "minecraft:item_model": "minecraft:name_tag",
+            "max_damage": 1,
+            "damage": 0,
+            "max_stack_size": 1,
+            "!enchantable": {},
+            "consumable": {
+                "consume_seconds": 11239871892
+            }
+        },
+        "count": 1
+    }
+}

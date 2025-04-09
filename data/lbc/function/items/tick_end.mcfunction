@@ -6,3 +6,4 @@ advancement revoke @a only lbc:item_tinker_use
 advancement revoke @a only lbc:sethomer_use
 advancement revoke @a only lbc:packager_use
 advancement revoke @a only lbc:packager_use_left
+advancement revoke @a only lbc:register_use

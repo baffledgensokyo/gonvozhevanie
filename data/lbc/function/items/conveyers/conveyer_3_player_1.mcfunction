@@ -1,2 +1,2 @@
-summon arrow ~ ~1 ~ {item:{id:"glass",count:1},Tags:["kill_arrow","custom_arrow"],Motion:[0.0,4.0,10.0],pickup:0,SoundEvent:"niggers",damage:0.0d}
+summon arrow ~ ~1 ~ {item:{id:"glass",count:1},Tags:["kill_arrow","custom_arrow"],Motion:[0.0,5.0,5.0],pickup:0,SoundEvent:"niggers",damage:0.0d}
 ride @s mount @e[type=arrow,tag=kill_arrow,limit=1,distance=..1.1]

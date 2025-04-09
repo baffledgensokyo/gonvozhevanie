@@ -1,6 +1,9 @@
 particle small_gust ~ ~ ~ 2 2 2 0 10
 fill ~-3 ~-3 ~-3 ~3 ~3 ~3 air replace light
 fill ~-3 ~-3 ~-3 ~3 ~3 ~3 air replace #fire
+execute store result score strcount lbc.math run fill ~-3 ~-3 ~-3 ~3 ~3 ~3 air replace cobweb
+execute store result storage lbc.math string_count int 1 run scoreboard players get strcount lbc.math
+execute if score strcount lbc.math matches 1.. run function lbc:items/candle_killer/fill_spawn_strings with storage lbc.math
 
 fill ~-3 ~-3 ~-3 ~3 ~3 ~3 candle[lit=false,candles=1] replace candle[lit=true,candles=1]
 

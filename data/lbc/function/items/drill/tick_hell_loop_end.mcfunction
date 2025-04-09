@@ -461,7 +461,7 @@ execute unless block ^2.5 ^2.0 ^1.0 #hell_drill_incompatible run setblock ^2.5 ^
 execute unless block ^2.5 ^2.0 ^1.5 #hell_drill_incompatible run setblock ^2.5 ^2.0 ^1.5 air destroy
 execute unless block ^2.5 ^2.0 ^2.0 #hell_drill_incompatible run setblock ^2.5 ^2.0 ^2.0 air destroy
 
-
+execute as @e[distance=..5,type=item,nbt={Age:1s}] unless data entity @s Thrower run item modify entity @s container.0 lbc:smelt
 
 scoreboard players set @s distance 10000
 execute if score if lbc.math matches 1 run clear @s redstone 5
