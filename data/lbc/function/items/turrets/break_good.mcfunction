@@ -20,4 +20,11 @@ execute if entity @s[tag=turret_railgun_hostile] run loot spawn ~ ~ ~ loot lbc:t
 execute if entity @s[tag=turret_railgun_non_player] run loot spawn ~ ~ ~ loot lbc:turrets/railgun_non_player
 execute if entity @s[tag=turret_railgun_whitelistedmobs] run loot spawn ~ ~ ~ loot lbc:turrets/railgun_whitelistedmobs
 execute if entity @s[tag=turret_railgun_whitelistednames] run loot spawn ~ ~ ~ loot lbc:turrets/railgun_whitelistednames
+
+execute if entity @s[tag=turret_voidgun_blacklistedmobs] run loot spawn ~ ~ ~ loot lbc:turrets/voidgun_blacklistedmobs
+execute if entity @s[tag=turret_voidgun_blacklistednames] run loot spawn ~ ~ ~ loot lbc:turrets/voidgun_blacklistednames
+execute if entity @s[tag=turret_voidgun_hostile] run loot spawn ~ ~ ~ loot lbc:turrets/voidgun_hostile
+execute if entity @s[tag=turret_voidgun_non_player] run loot spawn ~ ~ ~ loot lbc:turrets/voidgun_non_player
+execute if entity @s[tag=turret_voidgun_whitelistedmobs] run loot spawn ~ ~ ~ loot lbc:turrets/voidgun_whitelistedmobs
+execute if entity @s[tag=turret_voidgun_whitelistednames] run loot spawn ~ ~ ~ loot lbc:turrets/voidgun_whitelistednames
 kill @s
