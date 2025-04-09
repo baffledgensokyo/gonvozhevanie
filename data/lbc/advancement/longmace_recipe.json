@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "uslovie": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "mace"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "uslovie"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "lbc:longsword/mace"
+        ],
+        "experience": 5
+    }
+}

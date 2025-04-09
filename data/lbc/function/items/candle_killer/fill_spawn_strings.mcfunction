@@ -1,0 +1,1 @@
+$summon item ~ ~ ~ {Item:{id:"minecraft:string",count:$(string_count)}}

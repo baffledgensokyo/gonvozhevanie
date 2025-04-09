@@ -1,0 +1,28 @@
+{
+    "criteria": {
+      "uslovie": {
+        "trigger": "minecraft:item_durability_changed",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "explosive_tool": true
+                  }
+                }
+              }
+            }
+          },"durability": 0
+        }
+      }
+    },
+    "requirements": [
+      [
+        "uslovie"
+      ]
+    ],
+    "rewards": {
+      "function": "lbc:items/explosive_tool/use"
+    }
+  }

@@ -1,0 +1,87 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "111",
+        " 2 ",
+        " 2 "
+    ],
+    "key": {
+        "1": "minecraft:iron_sword",
+        "2": "minecraft:iron_ingot"
+    },
+    "result": {
+        "id": "minecraft:iron_sword",
+        "components": {
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:attack_damage",
+                        "id": "minecraft:base_attack_damage",
+                        "amount": 11,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "minecraft:attack_speed",
+                        "id": "minecraft:base_attack_speed",
+                        "amount": -3.6,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "minecraft:entity_interaction_range",
+                        "id": "longsword_range",
+                        "amount": 10,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "minecraft:block_interaction_range",
+                        "id": "longsword_rangeb",
+                        "amount": 10,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    }
+                ],
+                "show_in_tooltip": true
+            },
+            "minecraft:item_name": "\"Железный огромный три-меч\"",
+            "minecraft:tool": {
+                "rules": [
+                    {
+                        "blocks": "#incorrect_for_iron_tool",
+                        "speed": 1,
+                        "correct_for_drops": false
+                    },
+                    {
+                        "blocks": "#bamboo",
+                        "speed": 148852,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#minecraft:sword_efficient",
+                        "speed": 6,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#mineable/pickaxe",
+                        "speed": 1,
+                        "correct_for_drops": false
+                    }
+                ],
+                "default_mining_speed": 1,
+                "damage_per_block": 1
+            },
+            "max_damage": 412,
+            "damage": 0,
+            "max_stack_size": 1,
+            "enchantable": {
+                "value": 14
+            },
+            "item_model": "minecraft:iron_sword",
+            "enchantment_glint_override": true
+        },
+        "count": 1
+    }
+}

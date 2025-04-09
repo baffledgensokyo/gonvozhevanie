@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "uslovie": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "cobblestone"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "uslovie"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "lbc:longsword/stone"
+        ],
+        "experience": 5
+    }
+}

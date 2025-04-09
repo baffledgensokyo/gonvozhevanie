@@ -14,7 +14,9 @@
                                 "minecraft:lore": [
                                     "{\"text\":\"Стреляет только по тем мобам, чьи имена есть\",\"italic\":false,\"color\":\"#9effe7\"}",
                                     "{\"text\":\"в названиях предметов в сундуке турели\",\"italic\":false,\"color\":\"#9effe7\"}",
-                                    "{\"text\":\"Назовите предмет \\\"_\\\" чтобы включить всех безымянных мобов\",\"italic\":false,\"color\":\"#9effe7\"}"
+                                    "{\"text\":\"Назовите предмет \\\"_\\\" чтобы включить всех безымянных мобов\",\"italic\":false,\"color\":\"#9effe7\"}",
+                                    "{\"text\":\"Назовите предмет \\\"+тэг\\\" чтобы влючить всех мобов с пометкой 'тэг'\",\"italic\":false,\"color\":\"#9effe7\"}",
+                                    "{\"text\":\"(тэги можно наложить с помощью предмета 'Регистратор')\",\"italic\":false,\"color\":\"#9effe7\"}"
                                 ],
                                 "minecraft:item_model": "turret/item/magic_name_whitelist",
                                 "minecraft:enchantment_glint_override": true,

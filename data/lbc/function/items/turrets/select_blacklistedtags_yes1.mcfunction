@@ -1,0 +1,1 @@
+$execute store success score ifsame lbc.math run data modify storage lbc.math tmp1 set value "+$(tmpname)"
