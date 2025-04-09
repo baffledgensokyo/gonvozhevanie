@@ -18,7 +18,10 @@
         "components": {
             "minecraft:item_name": "\"Турель (Мегаплавильня) (Не игроки)\"",
             "minecraft:lore": [
-                "{\"text\":\"Стреляет по всем кроме игроков\",\"italic\":false,\"color\":\"#9effe7\"}"
+                "{\"text\":\"Стреляет по всем кроме игроков\",\"italic\":false,\"color\":\"#9effe7\"}",
+
+                "{\"text\":\"Разместите на турели Пустотную призму, чтобы превратить турель в Пустотную пушку.\",\"italic\":false,\"color\":\"#986ee1\"}",
+                "{\"text\":\"Она наносит меньше урона, но пробивает все виды защиты и неуязвимости.\",\"italic\":false,\"color\":\"#986ee1\"}"
             ],
             "minecraft:item_model": "turret/item/railgun_not_players",
             "minecraft:enchantment_glint_override": true,
