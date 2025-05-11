@@ -12,7 +12,7 @@ scoreboard players set 99 lbc.math 99
 scoreboard players set 1000 lbc.math 1000
 scoreboard players set 1601 lbc.math 1601
 scoreboard players set 2001 lbc.math 2001
-data modify storage lbc.math transfer_link set value "212.22.93.214 25585"
+data modify storage lbc.math transfer_link set value "199.83.103.226 25659"
 function lbc:tick_1s
 function lbc:tick_10s
 function lbc:tick_5s
